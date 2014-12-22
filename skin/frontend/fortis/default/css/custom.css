@@ -1,0 +1,143 @@
+/**
+ * This file is a container for custom CSS. You can use it to override the default styles of the theme.
+ *
+ * 1. Copy the file "SAMPLE.custom.css" and rename it to "custom.css".
+ *    Otherwise this file will not be loded by Magento.
+ * 2. Enable it in the admin panel.
+ * 3. Uncomment slected sample styles or add your own CSS to override the default styles of the theme.
+ *
+ * Please refer to the user guide for more details.
+ *
+ */
+
+
+/* Products
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Product labels
+-------------------------------------------------------------- */
+/*
+.sticker.new { font-size:12px; }
+.sticker.sale { font-size:12px; }
+*/
+
+/* Product images in category view
+-------------------------------------------------------------- */
+/* Remove rounded corners */
+/*
+.products-grid .product-image img,
+.products-list .product-image img {
+    border-radius: 0px;
+}
+*/
+
+/* Stock indicator on product page (configurable products):
+icon background color
+-------------------------------------------------------------- */
+/*
+a.availability-only span.icon { background-color:orange; }
+*/
+
+/* Related products prev/next arrows
+-------------------------------------------------------------- */
+/*
+.block-related .gen-slider-arrows1 .direction-nav a { background-color: #fff; }
+.block-related .gen-slider-arrows1 .direction-nav a:hover { background-color: orange; }
+*/
+
+
+/* Miscellaneous
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Drop-down caret */
+/*
+.caret {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+*/
+
+span.label:active {
+color: #3b3b3b;
+}
+p.footer-copyright {
+color: #AAAAAA;
+}
+li.nav-item.level1 {
+text-align: center;
+}
+li.nav-item.level2 {
+text-align: center;
+}
+
+.itemslider-wrapper.brand-slider-wrapper.slider-arrows1.slider-arrows1-pos-top-right.slider-pagination1.slider-pagination1-centered {
+border: 4px;
+border-bottom-color: black;
+border-bottom-style: groove;
+margin-bottom: 35px;
+}
+a.amount {
+color: #3b3b3b;
+}
+span.price {
+color: #1ca20c;;
+}
+span.price:hover{
+color: #1ca20c;
+}
+span.price:active{
+color: #ffffff;
+}
+
+.points-special-header {
+color: #EC008C;
+}
+
+.caption {
+display: block;
+position: relative;
+bottom: 0;
+width: 100%;
+margin: 0%;
+padding: 0;
+}
+.header a {
+color: #3b3b3b;
+}
+/*caption, th, td {
+vertical-align: top;
+text-align: center;
+font-weight: normal;
+}*/
+
+.point-list {
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 50%;
+}
+.block-title {
+	color:#ffffff;
+}
+.toolbar {
+	color:#ffffff;
+}
+.nav-item.span a{
+	color:#ffffff !important;
+}
+
+button.button span {
+font-size: 14px;
+}
+table#shopping-cart-totals-table {
+color: white;
+}
+.rewards-box-spend-header {
+color: white;
+}
+ h2{
+color: white !important;
+}

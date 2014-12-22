@@ -1,0 +1,219 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php   
+    $theme = $this->helper('fortis');   
+    $headerInnerBgColor     = $theme->getCfgDesign('header/inner_bg_color');
+    $headerStretched        = $theme->getCfgDesign('header/stretched');
+    $navStretched           = $theme->getCfgDesign('nav/stretched');
+    $navInnerBgColor        = $theme->getCfgDesign('nav/inner_bg_color');
+    $mainInnerBgColor       = $theme->getCfgDesign('main/inner_bg_color');
+    
+    //Header settings
+    $headerCss = array();
+    
+    if ($theme->isColor($headerInnerBgColor))
+    {
+        $headerCss[] = 'show-bg';
+    }
+
+    //Is header stretched
+    if ($headerStretched)
+    {
+        $headerCss[] = 'stretched';
+    }
+    
+    //Menu settings
+    $navCss = array();
+    
+    //Is menu stretched (full available width, margins are removed)
+    if ($navStretched)
+    {
+        $navCss[] = 'stretched';
+        $navCss[] = 'has-bg';
+    }
+    
+    //If header or menu have bg color, nav also has bg color
+    if ($theme->isColor($headerInnerBgColor))
+    {
+        $navCss[] = 'show-bg';
+    }
+    elseif ($theme->isColor($mainInnerBgColor))
+    {
+        $navCss[] = 'show-bg';
+    }
+
+    if ($theme->isColor($navInnerBgColor))
+    {
+        $navCss[] = 'has-bg';
+    }
+
+    //User menu settings
+    $umCss = array();
+    if ($theme->getCfg('header/top_links_icons'))
+    {
+        $umStyleClass1 = $theme->getCfg('header/top_links_icons_style1');
+        $umStyleClass2 = $theme->getCfg('header/top_links_icons_style2');
+        $umCss[] = $umStyleClass1;
+    }
+    else
+    {
+        $umCss[] = 'um-no-icons';
+    }
+    
+    if ($theme->getCfgDesign('header/icon_animate'))
+    {
+        $umCss[] = 'um-animate-icons';
+    }
+?>
+<div class="header-container" id="top">
+<div class="header-container2">
+<div class="header-container3">
+
+    <div class="header-top-container">
+        <div class="header-top header container clearer<?php if($headerCss) echo " " . implode(" ", $headerCss); ?>">
+            <div class="grid-full">
+                <div class="search-wrapper search-wrapper-mobile search-wrapper-inline search-wrapper-small item item-right">
+                    <?php echo $this->getChildHtml('topSearch'); ?>
+                </div>
+
+                <?php if ($tmpHtml = $this->getChildHtml('block_header_top_left')): ?>
+                    <div class="block_header_top_left item item-left"><?php echo $tmpHtml; ?></div>
+                <?php endif; ?>
+                <?php if ($tmpHtml = $this->getChildHtml('block_header_top_left2')): ?>
+                    <div class="block_header_top_left2 item item-left"><?php echo $tmpHtml; ?></div>
+                <?php endif; ?>
+
+                <?php if ($tmpHtml = $this->getChildHtml('block_header_top_right')): ?>
+                    <div class="block_header_top_right item item-right"><?php echo $tmpHtml; ?></div>
+                <?php endif; ?>
+                <?php echo $this->getChildHtml('currency'); ?>
+                <?php echo $this->getChildHtml('store_language'); ?>
+                <?php if ($tmpHtml = $this->getChildHtml('block_header_top_right2')): ?>
+                    <div class="block_header_top_right2 item item-right"><?php echo $tmpHtml; ?></div>
+                <?php endif; ?>
+            </div> <!-- end: grid-full -->
+            <?php echo $this->getChildHtml('topContainer'); ?>
+        </div> <!-- end: header-top -->
+    </div> <!-- end: header-top-container -->
+
+    <div class="header-primary-container">
+        <div class="header-primary header container<?php if($headerCss) echo " " . implode(" ", $headerCss); ?>">
+            <div class="grid-full">
+                
+                <div class="v-grid-container">
+                    
+                    <div class="logo-wrapper grid12-4 v-grid">
+                    <?php if ($this->getIsHomePage()): ?>
+                        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+                    <?php else: ?>
+                        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                    <?php endif; ?>
+                    </div> <!-- end: logo-wrapper -->
+                    
+                    <div class="user-menu clearer grid12-8 v-grid um-fortis<?php if($umCss) echo " " . implode(" ", $umCss); ?>">
+
+                        <div class="user-menu-top clearer">
+                            <div class="item item-right hide-below-768">
+                                <p class="welcome-msg"><?php echo $this->getChildHtml('welcome'); //$this->getWelcome(); ?> <?php echo $this->getAdditionalHtml(); ?></p>
+                            </div>
+                            <?php if ($tmpHtml = $this->getChildHtml('block_header_banner')): ?>
+                                <div class="block_header_banner item item-right"><?php echo $tmpHtml; ?></div>
+                            <?php endif; ?>
+                        </div>
+                        
+                        <?php echo $this->getChildHtml('cart_sidebar'); ?>
+                        <?php // <div class="after-mini-cart"></div> ?>
+
+                        <?php
+                            if ($theme->getCfg('header/compare'))
+                            {
+                                $tmpHtml = $this->getChildHtml('compareMini');
+                                if ($tmpHtml) echo $tmpHtml;
+                            }
+                        ?>
+                        
+                        <div class="top-links">
+                            <?php
+                            //Additional custom Top Links
+                            if ($tmpHtml = $this->getChildHtml('block_header_top_links2'))
+                                echo $tmpHtml;
+                                
+                            //Default Magento top links (page.xml)
+                            if ($theme->getCfg('magento_blocks/top_links'))
+                                echo $this->getChildHtml('topLinks');
+                            
+                            //Custom top links - override Magento's default Top Links
+                            if ($tmpHtml = $this->getChildHtml('block_header_top_links'))
+                                echo $tmpHtml;
+                            ?>
+                        </div> <!-- end: top-links -->
+        
+                    </div> <!-- end: user-menu -->
+                    
+                </div> <!-- end: v-grid-container -->
+        
+            </div> <!-- end: grid-full -->
+        </div> <!-- end: header-primary -->
+    </div> <!-- end: header-primary-container -->
+
+    <?php //If Top Links with icons are enabled and both icon styles are not identical ?>
+    <?php if ($theme->getCfg('header/top_links_icons') && ($umStyleClass1 !== $umStyleClass2)): ?>
+        <script type="text/javascript">
+        //<![CDATA[
+            jQuery(function($) {
+                var umStyleClass1 = '<?php echo $umStyleClass1; ?>';
+                var umStyleClass2 = '<?php echo $umStyleClass2; ?>';
+                var umDecorate = function()
+                {
+                    if ($(window).width() >= 640)
+                    {
+                        $('.user-menu').addClass(umStyleClass1).removeClass(umStyleClass2);
+                    }
+                    else
+                    {
+                        $('.user-menu').addClass(umStyleClass2).removeClass(umStyleClass1);
+                    }
+                }
+                umDecorate();
+                $(window).resize(umDecorate);
+            });
+        //]]>
+        </script>
+    <?php endif; ?>
+    
+    <div class="nav-container">
+        <div class="nav container clearer<?php if($navCss) echo " " . implode(" ", $navCss); ?>">
+            <?php echo $this->getChildHtml('topMenu') ?>
+        </div> <!-- end: nav -->
+    </div> <!-- end: nav-container -->
+
+</div> <!-- end: header-container3 -->
+</div> <!-- end: header-container2 -->
+</div> <!-- end: header-container -->

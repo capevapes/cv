@@ -1,0 +1,37 @@
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 850px) {
+
+}
+
+@media (max-width: 719px) {
+    .sociallogin-field{
+        width: 90% !important;
+    }
+    .sociallogin-field input{
+        width: 86% !important;
+    }
+    .sociallogin-input-box{
+        width: 90% !important;
+    }
+    .sociallogin-field.email input{
+        width: 86% !important;
+    }
+    #magegiant-sociallogin-popup .input-box{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 718px) and (min-width: 640px) {
+
+}
+
+@media (max-width: 639px) {
+}
+
+
+

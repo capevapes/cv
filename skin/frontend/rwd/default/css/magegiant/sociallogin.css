@@ -1,0 +1,409 @@
+#magegiant-sociallogin-popup {
+    max-width: 450px;
+    display: inline-block;
+}
+#magegiant-sociallogin-popup label{
+    color: #000000;
+    font-family: Arial;
+}
+#magegiant-sociallogin-popup a {
+    text-decoration: none;
+}
+
+#magegiant-sociallogin-popup a:hover {
+    text-decoration: underline;
+}
+
+#magegiant-sociallogin-popup .popup-btn {
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 10px 20px;
+    text-align: center;
+    width: auto;
+}
+
+#magegiant-sociallogin-popup .popup-btn:hover {
+    opacity: 0.85;
+}
+
+#magegiant-sociallogin-popup .popup-btn:visited {
+    background: #3068a2;
+    background: linear-gradient(to bottom, #4687ce 0, #3068a2 100%);
+    border-color: #486582;
+    color: #fff;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 1px 0 #295989;
+}
+
+.clear {
+    width: 100%;
+    height: 0px;
+    clear: both;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#sociallogin_button {
+    margin-top: 10px;
+}
+
+#magegiant-sociallogin-popup .input-box {
+    width: 99%;
+}
+
+#sociallogin-other-a {
+    width: 91px;
+    display: block;
+}
+
+.sociallogin-other-span {
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.other-button {
+    margin: 7px 3px 5px 4px;
+}
+
+.sociallogin-other-button {
+    width: auto;
+    max-width: 528px;
+}
+
+button.bt-login-social {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.bt-login-social span {
+    height: 28px;
+    line-height: 27px;
+    color: #fff;
+    padding: 0 0 0 28px;
+    float: left;
+}
+
+button.bt-login-social span span {
+    background-position: 100% 0 !important;
+    padding-right: 10px !important;
+    padding-left: 5px !important;
+    min-width: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+}
+
+button.bt-login-social.visible span span {
+    min-width: 100px;
+}
+
+#magegiant-login-social {
+    margin-right: 10px;
+}
+
+#sociallogin-close:hover {
+    text-decoration: underline;
+}
+
+#magegiant-login-form {
+    width: 100%;
+    margin: 0;
+}
+
+.magegiant-loign-h3 {
+    background: url("../../images/sociallogin/login_title.png") no-repeat scroll 5px center rgba(0, 0, 0, 0);
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+    text-indent: 40px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.magegiant-login-input-box {
+    margin-bottom: 30px;
+    height: 30px;
+    float: left;
+    width: 100%;
+}
+
+.magegiant-login-input-box label{
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#magegiant-sociallogin-form, #magegiant-sociallogin-form-create, #magegiant-sociallogin-form-forgot {
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding: 15px;
+    width: 100%;
+}
+
+.login-label {
+    /*float: left;
+    padding-top: 5px;
+    width: 20%;
+    font-weight: bold;
+    color: #666;
+    min-width: 150px;*/
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    height: 20px;
+    padding: 2px;
+    width: 100%;
+    border: none;
+}
+
+.login-label em {
+    color: red;
+}
+
+.sociallogin-input-box {
+    float: left;
+    _margin-bottom: 12px;
+    width: 100%;
+    margin: 0;
+}
+
+.magegiant-login-form-popup .input-text {
+    float: left;
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #c0c0c0;
+    height: 30px;
+}
+
+#magegiant-create-user .sociallogin-field .input-text {
+   /* min-width: 200px !important;*/
+}
+
+.magegiant-login-popup-button {
+    float: left;
+    width: 100%;
+}
+
+#magegiant-forgot-password {
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+#magegiant-forgot-back {
+    float: left;
+    margin-right: 40px;
+    font: normal 12px Arial;
+}
+
+.popup_click_btn {
+    margin-right: 10px !important;
+    float: right;
+}
+
+.magegiant-login-input-box .login-label em {
+}
+
+.ajax-login-image {
+    background: url("sociallogin/opc-ajax-loader.gif") no-repeat scroll 0 0 transparent;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.magegiant-invalid-email {
+    margin-left: 152px;
+    color: red;
+}
+
+#sociallogin-forgot {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding: 0 15px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.magegiant-sociallogin-create-new-customer {
+    float: left;
+    clear: both;
+    /*margin: 10px 0;*/
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding: 0 15px;
+}
+
+#magegiant-login-social {
+    padding-bottom: 10px;
+}
+
+.magegiant-sociallogin-create-new-customer a {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sociallogin-field {
+    width: 218px !important;
+    float: left;
+}
+
+#magegiant-sociallogin-form-create .form-list label {
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#magegiant-sociallogin-form-create .form-list .sociallogin-field {
+    float: left;
+    margin-bottom: 10px;
+    width: 50% !important;
+}
+
+#magegiant-sociallogin-form-create .form-list .email {
+    width: 100% !important;
+}
+#magegiant-sociallogin-form-create .form-list .email .input-box{
+    width: 100% !important;
+}
+
+#magegiant-sociallogin-form-create .form-list .email .input-text {
+    width: 99% !important;
+}
+
+.sociallogin-field .input-text {
+    width: 99% !important;
+}
+
+#magegiant-create-back {
+    color: #39c;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+#magegiant-login-social .magegiant-loign-h3 {
+    text-align: center;
+}
+
+.social-button-wapper {
+    display: block;
+    text-align: center;
+}
+
+.social-button-wapper ul {
+    display: inline-block;
+}
+
+.social-button-wapper ul li img {
+    max-width: 100px;
+    min-height: 25px;
+    cursor: pointer;
+}
+
+.magegiant-login-popup-button #magegiant-button-sociallogin {
+    float: right;
+    margin: 0;
+}
+
+.social-button-wapper {
+    position: relative;
+    list-style: none;
+    border-top: 1px solid #ccc;
+}
+
+#magegiant-sociallogin-form-create .magegiant-create-popup-button {
+    display: inline-block;
+    width: 99%;
+}
+
+.social-button-wapper:before {
+    content: 'or';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: -11px 0 0 -7px;
+    padding: 0 3px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.social-button-wapper ul li {
+    float: left;
+    padding: 20px 13px;
+}
+
+.social-button-container {
+    margin: 20px 0;
+}
+
+.social-button-container button.btn-social-login {
+    position: relative;
+    margin: 0;
+    padding-left: 40px;
+    width: 123px;
+    height: 46px;
+    text-align: left;
+    border-radius: none;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.social-button-container button.btn-social-login:hover {
+    opacity: 0.85;
+}
+
+.social-button-container button.btn-social-login:visited {
+    cursor: pointer;
+}
+
+.social-button-container button.btn-social-login img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+}
+
+#magegiant-create-user {
+    margin: 0;
+}
+
+#magegiant-button-sociallogin-create {
+    float: right;
+    margin-right: 24px;
+}
+
+#magegiant-sociallogin-create-new-customer {
+    margin: 0;
+}

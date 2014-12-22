@@ -1,0 +1,192 @@
+2014-11-24T17:06:05+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-11-24T17:06:05+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-11-24T17:06:05+00:00 DEBUG (7): came to onFrontendUpdate event
+2014-11-25T00:05:55+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-11-25T00:05:56+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-11-25T00:05:56+00:00 DEBUG (7): came to onFrontendCreate event
+2014-11-25T00:05:56+00:00 DEBUG (7): came to object exists event
+2014-11-25T00:05:56+00:00 DEBUG (7): Kristy
+2014-11-25T00:05:56+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-11-25T00:05:57+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-11-25T00:05:57+00:00 DEBUG (7): came to onFrontendCreate event
+2014-11-25T00:05:57+00:00 DEBUG (7): came to object exists event
+2014-11-25T00:05:57+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 10
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 7
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => Kristy
+            [created_time] => 2014-11-24 19:05:56
+        )
+
+)
+
+2014-12-03T03:32:48+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-03T03:32:48+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-03T03:32:48+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-03T03:32:48+00:00 DEBUG (7): came to object exists event
+2014-12-03T03:32:48+00:00 DEBUG (7): Brad
+2014-12-03T03:32:49+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-03T03:32:49+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-03T03:32:49+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-03T03:32:49+00:00 DEBUG (7): came to object exists event
+2014-12-03T03:32:49+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 33
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 8
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => Brad
+            [created_time] => 2014-12-02 22:32:48
+        )
+
+)
+
+2014-12-03T03:45:18+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to object exists event
+2014-12-03T03:45:19+00:00 DEBUG (7): CapeVapes
+2014-12-03T03:45:19+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-03T03:45:19+00:00 DEBUG (7): came to object exists event
+2014-12-03T03:45:19+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 34
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 9
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => CapeVapes
+            [created_time] => 2014-12-02 22:45:19
+        )
+
+)
+
+2014-12-05T02:45:23+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T02:45:25+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T02:45:25+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-05T02:45:25+00:00 DEBUG (7): came to object exists event
+2014-12-05T02:45:25+00:00 DEBUG (7): Darien
+2014-12-05T02:45:26+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T02:45:26+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T02:45:26+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-05T02:45:26+00:00 DEBUG (7): came to object exists event
+2014-12-05T02:45:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 36
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 10
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => Darien
+            [created_time] => 2014-12-04 21:45:25
+        )
+
+)
+
+2014-12-05T02:47:17+00:00 DEBUG (7): 
+2014-12-05T02:47:17+00:00 DEBUG (7): 
+2014-12-05T02:47:29+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T02:47:30+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T02:47:30+00:00 DEBUG (7): came to onFrontendUpdate event
+2014-12-05T05:45:23+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T05:45:23+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T05:45:23+00:00 DEBUG (7): came to onFrontendUpdate event
+2014-12-05T18:45:25+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to object exists event
+2014-12-05T18:45:27+00:00 DEBUG (7): Michael
+2014-12-05T18:45:27+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-05T18:45:27+00:00 DEBUG (7): came to object exists event
+2014-12-05T18:45:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 87
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 11
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => Michael
+            [created_time] => 2014-12-05 13:45:27
+        )
+
+)
+
+2014-12-06T14:21:15+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to object exists event
+2014-12-06T14:22:00+00:00 DEBUG (7): shannon
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendBeforeSave event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendAfterSave event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to onFrontendCreate event
+2014-12-06T14:22:00+00:00 DEBUG (7): came to object exists event
+2014-12-06T14:22:00+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [header_id] => 91
+            [instance_id] => 1
+            [model_name] => Customer
+            [obj_id] => 12
+            [ref_obj_id] => 
+            [mbiz_obj_id] => 
+            [mbiz_ref_obj_id] => 
+            [associated_configurable_products] => 
+            [obj_status] => 1
+            [exception_desc] => 
+            [status] => Pending
+            [created_by] => shannon
+            [created_time] => 2014-12-06 09:22:00
+        )
+
+)
+

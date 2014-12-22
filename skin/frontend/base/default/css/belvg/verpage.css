@@ -1,0 +1,162 @@
+/**
+ * Belvg_Verpage - Copyright (c) 2010 - 2014 BelVG LLC. (http://www.belvg.com)
+ */
+.nyroModalBg {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    z-index:98000;
+}
+.nmReposition {
+    position: absolute;
+}
+.nyroModalCloseButton {
+    top: -13px;
+    right: -13px;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999em;
+}
+.nyroModalTitle {
+    top: -26px;
+    left: 0;
+    margin: 0;
+    font-size: 1.1em;
+    color: #ddd;
+}
+.nyroModalCont {
+    position: absolute;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 25px;
+    background: #fff;
+    z-index:99000;
+}
+.nyroModalCont iframe {
+    width: 600px;
+    height: 400px;
+}
+.nyroModalError {
+    border: 4px solid red;
+    color: red;
+    width: 250px;
+    height: 250px;
+}
+.nyroModalError div {
+    min-width: 0;
+    min-height: 0;
+    padding: 10px;
+}
+.nyroModalLink, .nyroModalDom, .nyroModalForm, .nyroModalFormFile {
+    position: relative;
+    padding: 30px;
+    min-width: 80px;
+    max-width: 2000px;
+}
+.nyroModalImage, .nyroModalSwf, .nyroModalIframe, .nyroModalIframeForm {
+    position: relative;
+    overflow: hidden;
+}
+.nyroModalImage img {
+    vertical-align: top;
+}
+.nyroModalHidden {
+    left: -9999em;
+    top: -9999em;
+}
+.nyroModalLoad {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    padding: 0;
+}
+.nyroModalPrev, .nyroModalNext {
+    outline: none;
+    position: absolute;
+    top: 0;
+    height: 60%;
+    width: 150px;
+    min-height: 50px;
+    max-height: 300px;
+    cursor: pointer;
+    text-indent: -9999em;
+    background: transparent url('data:image/gif;base64,AAAA') left 20% no-repeat;
+}
+.nyroModalImage .nyroModalPrev, .nyroModalImage .nyroModalNext {
+    height: 100%;
+    width: 40%;
+    max-height: none;
+}
+.nyroModalPrev {
+    left: 0;
+}
+.nyroModalNext {
+    right: 0;
+    background-position: right 20%;
+}
+.nyroModalNext:hover {
+    background-position: right 20%;
+}
+.verpage_select {
+    margin-top: 20px;
+}
+.verpage_select span{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.verpage_actions {
+    margin: 20px;
+}
+.verpage_actions .exit {
+    margin-right: 10px;
+}
+.verpage_actions .enter {
+    margin-left: 10px;
+}
+/*.verpage_actions .exit span{
+    background: none repeat scroll 0 0 #A00000;
+    border: 0px solid #DE0000;
+    border-radius: 17px;
+    color: #FFFFFF;
+    font: bold 30px Arial,Helvetica,sans-serif;
+    height: 34px;
+    padding: 0 18px;
+}*/
+.verpage_actions .exit span span{
+    border: 0 none;
+    /*padding: 0;*/
+}
+/*.verpage_actions .enter span{
+    background: none repeat scroll 0 0 #00A000;
+    border: 0px solid #00DE00;
+    border-radius: 17px;
+    color: #FFFFFF;
+    font: bold 30px Arial,Helvetica,sans-serif;
+    height: 34px;
+    padding: 0 18px;
+}*/
+.verpage_actions .enter span span{
+    border: 0 none;
+    /*padding: 0;*/
+}
+.verpage_confirm {
+    margin-top: 10px;
+}
+/* ie8 */
+.disabled:after {
+    top: auto;
+}
+
+/*responsive*/
+.nyroModalCont * {
+    text-align: center;
+}
+.nyroModalCont img{
+    display: inline;
+}

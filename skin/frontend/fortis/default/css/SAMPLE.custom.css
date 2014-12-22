@@ -1,0 +1,60 @@
+/**
+ * This file is a container for custom CSS. You can use it to override the default styles of the theme.
+ *
+ * 1. Copy the file "SAMPLE.custom.css" and rename it to "custom.css".
+ *    Otherwise this file will not be loded by Magento.
+ * 2. Enable it in the admin panel.
+ * 3. Uncomment slected sample styles or add your own CSS to override the default styles of the theme.
+ *
+ * Please refer to the user guide for more details.
+ *
+ */
+
+
+/* Products
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Product labels
+-------------------------------------------------------------- */
+/*
+.sticker.new { font-size:12px; }
+.sticker.sale { font-size:12px; }
+*/
+
+/* Product images in category view
+-------------------------------------------------------------- */
+/* Remove rounded corners */
+/*
+.products-grid .product-image img,
+.products-list .product-image img {
+    border-radius: 0px;
+}
+*/
+
+/* Stock indicator on product page (configurable products):
+icon background color
+-------------------------------------------------------------- */
+/*
+a.availability-only span.icon { background-color:orange; }
+*/
+
+/* Related products prev/next arrows
+-------------------------------------------------------------- */
+/*
+.block-related .gen-slider-arrows1 .direction-nav a { background-color: #fff; }
+.block-related .gen-slider-arrows1 .direction-nav a:hover { background-color: orange; }
+*/
+
+
+/* Miscellaneous
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Drop-down caret */
+/*
+.caret {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+*/

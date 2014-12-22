@@ -1,0 +1,39 @@
+<script type="text/javascript">
+    //<![CDATA[
+    document.write('<a href="https://twitter.com/<?php echo $this->getStoreTwitterUsername(); ?>" class="twitter-follow-button rewardssocial-rewardable" data-show-count="<?php echo $this->isCounterEnabled() ? 'true' : 'false' ; ?>" data-show-screen-name="<?php echo $this->isUsernameDisplayEnabled() ? 'true' : 'false' ; ?>" <?php /*data-width="210px" */ ?>>Follow</a>');
+    //]]>
+</script>
+
+
+<script type="text/javascript">
+    if (typeof window.twttr == 'undefined') {
+        window.twttr = (function (d,s,id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+            js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        } (document, "script", "twitter-wjs"));
+    }
+
+    document.observe("dom:loaded", function() {
+        window.twttr.ready(function (twttr) {
+            if (typeof TwitterFollowReward === 'undefined') {
+                return this;
+            }
+
+            //For bundle products the bundle variable seems to conflict with twttr.events.bind method ,
+            //after the method is called the bundle variables becomes undefined.
+            if (typeof bundle !== 'undefined') {
+                var mybundle = bundle;
+            }
+
+            var followReward = new TwitterFollowReward('<?php echo $this->getFollowProcessingUrl(); ?>');
+            eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5.6.4(\'3\',1(0){2(!0.7.c(\'b-a\')){8}9.d()});',14,14,'event|function|if|follow|bind|twttr|events|target|return|followReward|rewardable|rewardssocial|hasClassName|onFollow'.split('|'),0,{}))
+
+            //restore the bundle
+            if (typeof mybundle !== 'undefined') {
+                bundle = mybundle;
+            }
+        });
+    });
+</script>

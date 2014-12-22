@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_jQuery
+ * @version    2.0.3.1
+ * @copyright  Copyright (c) 2010 - 2012 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ -->
+<config>
+    <sections>
+        <jquery translate="label">
+            <label><![CDATA[<div style="background:url(data:image/png;base64,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) no-repeat; width: 155px; height: 20px;"></div>]]></label>
+            <tab>belvg</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>        
+                    <![CDATA[
+                    <div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
+                    This module was developed by <a href="http://www.belvg.com" target="_blank">www.BelVG.com</a>.
+                    For docs & examples refer to the BelVG <a href="http://www.belvg.com" target="_blank">web site</a>.
+                    <br/>We have the largest selections of  <a href="http://store.belvg.com/extensions.html" target="_blank">extensions</a> and <a href="http://store.belvg.com/themes.html" target="_blank">themes</a> on Magento.
+                    </div>
+                    ]]>
+                    </comment>
+                    <fields>
+                        <enabled translate="label comment">
+                            <label>Enabled</label>
+                            <tooltip>Enable or disable module at frontend</tooltip>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jquery/source_jqdisable</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <jq_version translate="label comment">
+                            <label>jQuery version</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jquery/source_jqversions</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </jq_version>
+                    </fields>
+                </settings>
+            </groups>
+        </jquery>
+    </sections>
+</config>

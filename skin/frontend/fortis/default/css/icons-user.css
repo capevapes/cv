@@ -1,0 +1,252 @@
+/**
+ * User menu icons
+ */
+
+
+
+/* Predefined icons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Account */
+.icon.i-account {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-7px -7px;
+}
+.icon.i-account-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-7px -57px;
+}
+
+	/* bw */
+	.icon.i-account-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-7px -7px;
+	}
+	.icon-hover:hover.i-account-bw,
+	.feature-icon-hover:hover .icon.i-account-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-7px -57px;
+	}
+	
+	/* wb */
+	.icon.i-account-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-7px -57px;
+	}
+	.icon-hover:hover.i-account-wb,
+	.feature-icon-hover:hover .icon.i-account-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-7px -7px;
+	}
+
+/* Sign up */
+.icon.i-signup {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-57px -7px;
+}
+.icon.i-signup-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-57px -57px;
+}
+
+	/* bw */
+	.icon.i-signup-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-57px -7px;
+	}
+	.icon-hover:hover.i-signup-bw,
+	.feature-icon-hover:hover .icon.i-signup-bw,
+	.open > .dropdown-toggle.cover .icon.i-signup-bw
+	{
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-57px -57px;
+	}
+	
+	/* wb */
+	.icon.i-signup-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-57px -57px;
+	}
+	.icon-hover:hover.i-signup-wb,
+	.feature-icon-hover:hover .icon.i-signup-wb,
+	.open > .dropdown-toggle.cover .icon.i-signup-wb
+	{
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-57px -7px;
+	}
+
+/* Log in */
+.icon.i-login {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-107px -7px;
+}
+.icon.i-login-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-107px -57px;
+}
+
+	/* bw */
+	.icon.i-login-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-107px -7px;
+	}
+	.icon-hover:hover.i-login-bw,
+	.feature-icon-hover:hover .icon.i-login-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-107px -57px;
+	}
+	
+	/* wb */
+	.icon.i-login-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-107px -57px;
+	}
+	.icon-hover:hover.i-login-wb,
+	.feature-icon-hover:hover .icon.i-login-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-107px -7px;
+	}
+
+/* Log out */
+.icon.i-logout {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-157px -7px;
+}
+.icon.i-logout-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-157px -57px;
+}
+
+	/* bw */
+	.icon.i-logout-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-157px -7px;
+	}
+	.icon-hover:hover.i-logout-bw,
+	.feature-icon-hover:hover .icon.i-logout-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-157px -57px;
+	}
+	
+	/* wb */
+	.icon.i-logout-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-157px -57px;
+	}
+	.icon-hover:hover.i-logout-wb,
+	.feature-icon-hover:hover .icon.i-logout-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-157px -7px;
+	}
+
+/* Default icon for link in user menu links (including Top Links) */
+.icon.i-userlinkdefault {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-207px -7px;
+}
+.icon.i-userlinkdefault-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-207px -57px;
+}
+
+	/* bw */
+	.icon.i-userlinkdefault-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-207px -7px;
+	}
+	.icon-hover:hover.i-userlinkdefault-bw,
+	.feature-icon-hover:hover .icon.i-userlinkdefault-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-207px -57px;
+	}
+	
+	/* wb */
+	.icon.i-userlinkdefault-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-207px -57px;
+	}
+	.icon-hover:hover.i-userlinkdefault-wb,
+	.feature-icon-hover:hover .icon.i-userlinkdefault-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-207px -7px;
+	}
+
+/* Custom icon for link in user menu links (including Top Links) */
+.icon.i-userlinkcustom {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-257px -7px;
+}
+.icon.i-userlinkcustom-w {
+	background-image:url(../images/sprite-icons-user.png);
+	background-position:-257px -57px;
+}
+
+	/* bw */
+	.icon.i-userlinkcustom-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-257px -7px;
+	}
+	.icon-hover:hover.i-userlinkcustom-bw,
+	.feature-icon-hover:hover .icon.i-userlinkcustom-bw {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-257px -57px;
+	}
+	
+	/* wb */
+	.icon.i-userlinkcustom-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-257px -57px;
+	}
+	.icon-hover:hover.i-userlinkcustom-wb,
+	.feature-icon-hover:hover .icon.i-userlinkcustom-wb {
+		background-image:url(../images/sprite-icons-user.png);
+		background-position:-257px -7px;
+	}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   High-resolution-ready (retina-ready) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   -moz-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (    -ms-min-device-pixel-ratio: 1.5),
+only screen and (        min-device-pixel-ratio: 1.5)
+{
+
+	/* All user menu icons */
+	.icon.i-account,
+	.icon.i-account-w,
+	.icon.i-account-bw,
+	.icon.i-account-wb,
+
+	.icon.i-signup,
+	.icon.i-signup-w,
+	.icon.i-signup-bw,
+	.icon.i-signup-wb,
+
+	.icon.i-login,
+	.icon.i-login-w,
+	.icon.i-login-bw,
+	.icon.i-login-wb,
+
+	.icon.i-logout,
+	.icon.i-logout-w,
+	.icon.i-logout-bw,
+	.icon.i-logout-wb,
+
+	.icon.i-userlinkdefault,
+	.icon.i-userlinkdefault-w,
+	.icon.i-userlinkdefault-bw,
+	.icon.i-userlinkdefault-wb,
+
+	.icon.i-userlinkcustom,
+	.icon.i-userlinkcustom-w,
+	.icon.i-userlinkcustom-bw,
+	.icon.i-userlinkcustom-wb /* Last selector without trailing coma */
+	
+	{ background-image:url(../images/sprite-icons-user@2x.png); background-size:300px 100px; }
+
+} /* end: media query */

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ebizmarts_SweetMonkey>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Ebizmarts_MageMonkey />
+                <TBT_Rewards /><!-- v1.7.4.0+ -->
+            </depends>
+        </Ebizmarts_SweetMonkey>
+    </modules>
+</config>

@@ -1,0 +1,212 @@
+/**
+ * Override modules
+ */
+
+
+
+/* Megamenu %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* Nav container sizes and positionning
+   (stretched or with side margin)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Obsolete - this is now an option in admin panel: */
+	/*#nav {
+		padding-top: 12px;
+		padding-left: 1%;
+		padding-right: 1%;
+		width: 96%;
+	}*/
+
+	/* Add top margin for grid unit element of the same value as left and right margin of the grid unit,
+	   and remove margin if stretched */
+	/*.nav > .grid-full { margin-top:1%; }
+	.vertnav-top { margin-bottom: 1%; }*/
+
+	/* Nav - stretched */
+	/*.nav.stretched > .grid-full { margin-top:0; margin-bottom:0; }
+	.nav.stretched > #nav {
+		width: 98% !important;
+	}*/
+
+/* Nav - stretched */
+.nav.stretched > .mobnav-trigger-wrapper,
+/*.nav.stretched > .vertnav-top */
+.nav.stretched > .nav-mobile
+{
+	width: 100% !important;
+}
+
+/* Round corners
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.nav-mobile { overflow: hidden; /* With this, items in mobile menu don't cover rounded corners of the menu bar */ }
+
+.nav,
+.nav-regular
+{
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+
+
+/* Drop-down menu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* 1st level only
+-------------------------------------------------------------- */
+.nav-regular .nav-item.level0 {
+	padding-left:0;
+	padding-right:4px;
+}
+.nav-regular .nav-item.level0 > a {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding: 0 10px;
+}
+.nav-regular .nav-item.level0 > a > span { padding: 7px 0 0; }
+.nav-regular .nav-item.level0 > a > span.caret { padding: 0 !important; /* Caret overrides default padding */ }
+
+/* Top-level items and carets - disable transitions */
+.nav-regular .nav-item.level0 > a,
+.nav-regular .nav-item.level0 > a > span.caret { transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none; }
+
+	/* Hover/active item
+	-------------------------------------------------------------- */
+	/* Hover + active */
+	.nav-regular .nav-item.level0:hover  > a > span,
+	.nav-regular .nav-item.level0.active > a > span,
+	.cms-index-index .nav-regular .nav-item--home > a > span {
+		padding-top: 13px;
+	}
+
+	/* Top-level items - delay 200ms all transitions of all elements inside
+	-------------------------------------------------------------- */
+	/*
+	.nav-regular .nav-item.level0.parent > a
+	{
+		transition:			text-shadow 0ms step-end 200ms, box-shadow 0ms step-end 200ms, color 0ms step-end 200ms, background-color 0ms step-end 200ms;
+		-moz-transition:	text-shadow 0ms step-end 200ms, box-shadow 0ms step-end 200ms, color 0ms step-end 200ms, background-color 0ms step-end 200ms;
+		-webkit-transition:	text-shadow 0ms step-end 200ms, box-shadow 0ms step-end 200ms, color 0ms step-end 200ms, background-color 0ms step-end 200ms;
+		-o-transition:		text-shadow 0ms step-end 200ms, box-shadow 0ms step-end 200ms, color 0ms step-end 200ms, background-color 0ms step-end 200ms;
+	}
+	.nav-regular .nav-item.level0.parent > a > span
+	{
+		transition:			padding-top 0ms step-end 200ms;
+		-moz-transition:	padding-top 0ms step-end 200ms;
+		-webkit-transition:	padding-top 0ms step-end 200ms;
+		-o-transition:		padding-top 0ms step-end 200ms;
+	}
+	.nav-regular .nav-item.level0.parent > a .caret
+	{
+		transition:			border-top-color 0ms step-end 200ms;
+		-moz-transition:	border-top-color 0ms step-end 200ms;
+		-webkit-transition:	border-top-color 0ms step-end 200ms;
+		-o-transition:		border-top-color 0ms step-end 200ms;
+	}
+	*/
+
+
+/* Inside mega dropdown
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Level 1: item
+-------------------------------------------------------------- */
+.nav-regular .nav-submenu--mega > li > a {
+	padding: 10px;
+}
+
+/* level 2: item
+-------------------------------------------------------------- */
+.nav-regular .nav-submenu--mega > li > ul > li > a { line-height: 1.6666em; /*20px*/ }
+
+/* List bullets */
+.nav-regular .nav-submenu--mega > li > ul > li {
+	background: none;
+	padding-left: 10px;
+}
+
+
+/* Home link
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+	/* Menu item as home link
+	-------------------------------------------------------------- */
+	.nav-regular .nav-item--home a.level-top .icon {
+		padding: 0px !important; /*3px*/
+		margin-top: -4px;
+	}
+
+	/* Single icon as home link
+	-------------------------------------------------------------- */
+	.nav-regular .nav-item--homeicon { margin: 0; padding-right: 0; /* Override default margins and padding to align with other items */ }
+	.nav-regular .nav-item--homeicon a.level-top .icon {
+		margin-top: 5px;
+		padding-top: 0;
+
+		opacity:0.75;
+		filter:alpha(opacity=75);
+		transition:			background-color 300ms ease-in-out, opacity 300ms ease-in-out, background-position 300ms ease-in-out;
+		-moz-transition:	background-color 300ms ease-in-out, opacity 300ms ease-in-out, background-position 300ms ease-in-out;
+		-webkit-transition:	background-color 300ms ease-in-out, opacity 300ms ease-in-out, background-position 300ms ease-in-out;
+		-o-transition:		background-color 300ms ease-in-out, opacity 300ms ease-in-out, background-position 300ms ease-in-out;
+	}
+	.nav-regular .nav-item--homeicon:hover a.level-top .icon,
+	.cms-index-index .nav-regular .nav-item--homeicon a.level-top .icon {
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
+
+	#nav.nav-regular .nav-item--homeicon a.level-top { padding-left: 5px; padding-right: 5px; } /* Added #nav id to override less specific rules */
+
+
+/* Other elements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Category labels */
+li.level0 > a > span > .cat-label { top: -25px; }
+li.level0:hover  > a > span > .cat-label,
+li.level0.active > a > span > .cat-label { top: -17px; }
+/* 2nd-level only */
+li.level2 > a > span > .cat-label {
+	float: left;
+	margin-left: 0;
+	margin-right: 3px;
+}
+
+
+/* Size, height etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Main menu - horizontal
+-------------------------------------------------------------- */
+
+/* Top-level items and mobile menu trigger */
+.mobnav-trigger {
+	line-height:49px;
+}
+.nav-regular .nav-item.level0 > a {
+	line-height: 14px; /* Default height, has to be fixed */
+	height: 40px;
+}
+
+
+/* Home link
+-------------------------------------------------------------- */
+.nav-regular .nav-item--home a.level-top.feature,
+.nav-regular .nav-item--homeicon a.level-top
+{
+	height:40px;
+	position:static; /* Fix: icon scrolling if 2-color icon */
+}
+
+
+
+
+
+/* Lightbox %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+#colorbox #cboxNext { left: 41px; /* Add 1px gap between buttons/arrows */ }

@@ -1,0 +1,67 @@
+
+<script type="text/javascript">
+    var checkPinterestUri = '<?php echo $this->getPinProcessingUri() ?>';
+</script>
+
+<script type="text/javascript">
+    window.onload = function() {
+        var rewardsPinterestKey = null,
+            rewardsPinterestObj = null;
+        for (var key in window) {
+            if (!window.hasOwnProperty(key)) {
+                continue;
+            }
+
+            if (key.indexOf('PIN_') == -1 || !window[key].f) {
+                continue;
+            }
+
+            rewardsPinterestKey = key;
+            rewardsPinterestObj = window[key];
+            break;
+        }
+
+        if (rewardsPinterestKey == null) {
+            return;
+        }
+
+        var hasPredictedPoints = <?php echo $this->getHasPredictedPoints() ? 'true' : 'false' ?>;
+        var rewardsPinItButton = $$('.' + rewardsPinterestKey + '_pin_it_button_20')[0];
+
+        // TODO: this is a hack to be able to show 0 counts
+        rewardsPinterestObj.f.call(rewardsPinterestObj.a.endpoint.count+"?url="+encodeURIComponent(window.location.href)+"&amp;ref="+encodeURIComponent(rewardsPinterestObj.v.here)+"&amp;source="+rewardsPinterestObj.a.countSource,
+            // callback after fetching pin count
+            function(response, someNumber) {
+                if (response.count > 0) {
+                    return;
+                }
+
+                var oldCount = $(rewardsPinterestKey + '_pin_count_0');
+                var newCount = $('_pin_count_0');
+                if (newCount) {
+                    newCount.style.setProperty('display', 'block');
+                    newCount.className = rewardsPinterestKey + '_pin_it_button_count';
+                    newCount.id = rewardsPinterestKey + '_pin_count_0';
+                    oldCount.parentNode.replaceChild(newCount, oldCount);
+                }
+            }
+        );
+
+        var originalOpen = window.open;
+
+        window.open = function(e) {
+            var args = Array.prototype.slice.call(arguments);
+            var pinterestPinModal = originalOpen.apply(this, args);
+
+            // if PinterestPinReward is not defined, exit
+            if (typeof PinterestPinReward === 'undefined' || !hasPredictedPoints || args[0].indexOf('pinterest.com/pin/create/button/') == -1) {
+                return pinterestPinModal;
+            }
+
+            eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('b c=4.m(l(){n{o(d==q||d.k){4.r(c);b 6=j.h(\'.7-i\'),g=6.0.2(\' \')[1]+\'-5\',9=6.h(),3=\'.7-p-D-5\'+9.0.2(\' \')[1]+\' #7-5-B\',8=4[\'C\'+9.0.2(\' \')[1]].8,a={y:u,t:g,3:3};w.x(a,8);b f=v z(a);f.s()}}A(e){}},E);',41,41,'className||split|loadingElement|window|notification|widgetElement|rewardssocial|data|widgetsElement|args|var|interval|pinterestPinModal||pinterestReward|notificationElementClass|up|widget|rewardsPinItButton|closed|function|setInterval|try|if|widgets|null|clearInterval|onPin|notificationElement|checkPinterestUri|new|Object|extend|rewardUrl|PinterestPinReward|catch|loading|rewardsSocialWidgetHover|points|1000'.split('|'),0,{}))
+
+            return pinterestPinModal;
+        };
+
+    };
+</script>

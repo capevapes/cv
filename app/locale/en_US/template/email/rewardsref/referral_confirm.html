@@ -1,0 +1,48 @@
+<!--@subject You've earned referral points! @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"var store_name":"Store Name",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
+"var referral.referral_name":"Referred customer's name",
+"var affiliate.name":"Affiliate/Referral Name",
+"var affiliate.email":"Affiliate/Referral Email",
+"var affiliate_url":"Affiliate/Referral URL",
+"var referral_code":"Affiliate/Referral code",
+"var referral_shortcode":"Affiliate/Referral shortcode",
+"var points_earned":"Amount of points earned by the affiliate/referral",
+"var points_balance":"Affiliate/referral's points balance",
+"var pending_points":"Affiliate/referral's pending points balance",
+"var has_pending_points":"Whether or not affiliate/referralhas pending points",
+"var msg":"Comments about the reason for receiving these points"}
+@-->
+<style type="text/css">
+    body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+</style>
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%"
+           style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top"><a href="{{store url=""}}">
+                            <img src="{{var logo_url}}" alt="{{var logo_alt}}" style="margin-bottom:10px;" border="0"/>
+                        </a></td>
+                    </tr>
+                </table>
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <p>Congrats {{var affiliate.name}}!</p>
+                            <p>Your referral, {{var referral.referral_name}} ({{var referral.referral_email}}), did something on {{var store_name}}
+                                that earned you {{var points_earned}}.
+                            </p>
+                            <p><a href="{{store url=""}}">Log-in to {{var store_name}}</a> to check your balance today!</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

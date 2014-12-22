@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_Verpage
+ * @version    1.0.3
+ * @copyright  Copyright (c) 2010 - 2014 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ */
+-->
+<layout version="0.1.0">
+    <adminhtml_system_config_edit>
+        <reference name="before_body_end">
+            <block type="core/template" name="vp.admin.config" template="belvg/verpage/config_block.phtml"/>
+        </reference>
+    </adminhtml_system_config_edit>
+</layout>

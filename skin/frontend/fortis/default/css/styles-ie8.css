@@ -1,0 +1,113 @@
+/*
+ * Internet Explorer: less than or equal 8
+ *
+ */
+
+/* Hide element if screen width is lower than the width specified in the class name */
+.lte-ie8 .hide-below-1680 { display:inherit !important; }
+.lte-ie8 .hide-below-1440 { display:inherit !important; }
+.lte-ie8 .hide-below-1360 { display:inherit !important; }
+.lte-ie8 .hide-below-1280 { display:inherit !important; }
+
+
+/* Borders instead of dropdown shadows
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Search autocomplete */
+.header .form-search .search-autocomplete ul,
+
+/* Dropdown */
+.dropdown-menu
+{
+	border:1px solid #e5e5e5;
+}
+
+/* Remember Me popup, MAP popup, credit card number */
+.remember-me-popup,
+.map-popup,
+.tool-tip { border:1px solid #e5e5e5; }
+
+
+/* Caption
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Dark + white text */
+.caption.dark1 .heading,
+.caption.dark1 p,
+.caption.dark2 .heading,
+.caption.dark2 p,
+.caption.dark3 .heading,
+.caption.dark3 p { background-color:rgba(0,0,0, 0.65); background-color:#000; }
+
+/* Light + black text */
+.caption.light1 .heading,
+.caption.light1 p,
+.caption.light2 .heading,
+.caption.light2 p,
+.caption.light3 .heading,
+.caption.light3 p { background-color:rgba(255,255,255, 0.8); background-color:#fff; }
+
+
+/* Search
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/*Fix for header layout*/
+.header .form-search .input-text { float:none !important; }
+/* Fix button position */
+.header-top-search-wrapper { width:24%;}
+.header .form-search .button { background-color:transparent; }
+.header .form-search .button span { background-color:transparent; }
+
+
+/* Shopping Cart TODO check
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.cart fieldset { padding: 20px 13px 13px 20px; }
+.cart-table-wrapper {
+	background:url(../images/img/ie/cart-shadow.png) right bottom no-repeat;
+	padding:0 7px 7px 0;
+}
+.cart-table {
+	background-color: #fff;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Product page top with bg images. TODO remove
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.pv-top-outline .product-view-form {
+	display: block;
+	margin-right: 1%;
+}
+.pv-top-outline .product-top-wrapper  {
+	background:url(../images/img/ie/prod-bg-right.jpg) 100% 0 repeat-y;
+	margin: 0;
+}
+.pv-top-outline .product-top-wrapper2 {
+	background:url(../images/img/ie/prod-bg-bottom.jpg) 100% 100% no-repeat;
+	margin: 0;
+}
+.pv-top-outline .product-top-wrapper3 {
+	background:url(../images/img/ie/prod-bg-top.jpg) 100% 0 no-repeat;
+	min-height:279px;
+	padding:6px 0 5px 0;
+}
+.pv-top-outline .product-top-wrapper-cover-top,
+.pv-top-outline .product-top-wrapper-cover-bottom { display: none; }
+
+
+/* Mobile collapsible blocks (disable for old IE)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.mobile-collapsible .block-content { display: block !important; }
+.mobile-collapsible .opener { display: none !important; }
+
+
+/* Category view
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.products-grid.equal-height .item .actions { min-height: 45px; } /* Out-of-stock products need to have the same height as other grid items */

@@ -1,0 +1,170 @@
+2014-12-01T21:11:48+00:00 DEBUG (7): came to category api edit
+2014-12-01T21:11:48+00:00 DEBUG (7): category id 2
+2014-12-01T21:11:48+00:00 DEBUG (7): category mag parent id 1
+2014-12-01T21:11:48+00:00 DEBUG (7): category mbiz parent id 1
+2014-12-01T21:11:48+00:00 DEBUG (7): category parent rel
+2014-12-01T21:11:48+00:00 DEBUG (7): Array
+(
+)
+
+2014-12-01T21:11:48+00:00 DEBUG (7): category parent rel not exits
+2014-12-01T21:11:48+00:00 DEBUG (7): Root category Imported from mbiz
+2014-12-01T21:11:48+00:00 DEBUG (7): Array
+(
+    [entity_id] => 2
+    [entity_type_id] => 3
+    [attribute_set_id] => 3
+    [parent_id] => 1
+    [created_at] => 2014-09-24T12:30:41-04:00
+    [updated_at] => 2014-11-21 15:15:50
+    [path] => 1/2
+    [position] => 1
+    [level] => 1
+    [children_count] => 41
+    [name] => Inventory
+    [meta_title] => 
+    [custom_design] => 
+    [page_layout] => 
+    [umm_dd_type] => 0
+    [umm_dd_width] => 
+    [umm_dd_proportions] => 
+    [umm_cat_label] => 
+    [umm_cat_target] => 
+    [default_sort_by] => position
+    [is_active] => 1
+    [include_in_menu] => 1
+    [landing_page] => 
+    [is_anchor] => 0
+    [custom_apply_to_products] => 0
+    [umm_dd_columns] => 
+    [verpage_catalog_category] => 0
+    [sync_cat_create] => 1
+    [available_sort_by] => position
+    [description] => 
+    [meta_keywords] => 
+    [meta_description] => 
+    [custom_layout_update] => 
+    [umm_dd_blocks] => 
+    [custom_design_from] => 
+    [custom_design_to] => 
+    [filter_price_range] => 
+    [display_mode] => PRODUCTS
+    [url_key] => default-category
+    [path_ids] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [status] => 1
+    [category_id] => 2
+)
+
+2014-12-01T21:11:48+00:00 DEBUG (7): 2
+2014-12-03T05:31:42+00:00 DEBUG (7): came to category api edit
+2014-12-03T05:31:42+00:00 DEBUG (7): category id 60
+2014-12-03T05:31:42+00:00 DEBUG (7): category mag parent id 1
+2014-12-03T05:31:42+00:00 DEBUG (7): category mbiz parent id 1
+2014-12-03T05:31:42+00:00 DEBUG (7): category parent rel
+2014-12-03T05:31:42+00:00 DEBUG (7): Array
+(
+)
+
+2014-12-03T05:31:42+00:00 DEBUG (7): category parent rel not exits
+2014-12-03T05:31:42+00:00 DEBUG (7): Root category Imported from mbiz
+2014-12-03T05:31:42+00:00 DEBUG (7): Array
+(
+    [entity_id] => 60
+    [entity_type_id] => 3
+    [attribute_set_id] => 0
+    [parent_id] => 1
+    [created_at] => 2014-12-02T21:15:46-05:00
+    [updated_at] => 2014-12-03 02:15:46
+    [path] => 1/60
+    [position] => 4
+    [level] => 1
+    [children_count] => 0
+    [available_sort_by] => position
+    [name] => Featured 
+    [display_mode] => PRODUCTS
+    [url_key] => featured
+    [is_active] => 1
+    [is_anchor] => 1
+    [sync_cat_create] => 1
+    [include_in_menu] => 1
+    [path_ids] => Array
+        (
+            [0] => 1
+            [1] => 60
+        )
+
+    [status] => 1
+    [description] => 
+    [category_id] => 45
+    [default_sort_by] => position
+)
+
+2014-12-03T05:31:42+00:00 DEBUG (7): 60
+2014-12-10T16:59:46+00:00 DEBUG (7): came to category api edit
+2014-12-10T16:59:46+00:00 DEBUG (7): category id 2
+2014-12-10T16:59:46+00:00 DEBUG (7): category mag parent id 1
+2014-12-10T16:59:46+00:00 DEBUG (7): category mbiz parent id 1
+2014-12-10T16:59:46+00:00 DEBUG (7): category parent rel
+2014-12-10T16:59:46+00:00 DEBUG (7): Array
+(
+)
+
+2014-12-10T16:59:46+00:00 DEBUG (7): category parent rel not exits
+2014-12-10T16:59:46+00:00 DEBUG (7): Root category Imported from mbiz
+2014-12-10T16:59:46+00:00 DEBUG (7): Array
+(
+    [entity_id] => 2
+    [entity_type_id] => 3
+    [attribute_set_id] => 3
+    [parent_id] => 1
+    [created_at] => 2014-09-24T12:30:41-04:00
+    [updated_at] => 2014-12-01 21:11:48
+    [path] => 1/2
+    [position] => 1
+    [level] => 1
+    [children_count] => 41
+    [name] => Inventory
+    [meta_title] => 
+    [custom_design] => 
+    [page_layout] => 
+    [umm_dd_type] => 0
+    [umm_dd_width] => 
+    [umm_dd_proportions] => 
+    [umm_cat_label] => 
+    [umm_cat_target] => 
+    [default_sort_by] => position
+    [is_active] => 1
+    [include_in_menu] => 1
+    [landing_page] => 
+    [is_anchor] => 0
+    [custom_apply_to_products] => 0
+    [umm_dd_columns] => 
+    [verpage_catalog_category] => 0
+    [sync_cat_create] => 1
+    [available_sort_by] => position
+    [description] => 
+    [meta_keywords] => 
+    [meta_description] => 
+    [custom_layout_update] => 
+    [umm_dd_blocks] => 
+    [custom_design_from] => 
+    [custom_design_to] => 
+    [filter_price_range] => 
+    [display_mode] => PRODUCTS
+    [url_key] => default-category
+    [path_ids] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [status] => 1
+    [category_id] => 2
+)
+
+2014-12-10T16:59:46+00:00 DEBUG (7): 2

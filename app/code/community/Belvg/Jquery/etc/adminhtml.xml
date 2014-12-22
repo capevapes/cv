@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_jQuery
+ * @version    2.0.3.1
+ * @copyright  Copyright (c) 2010 - 2012 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ -->
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <jquery>
+                        <title>Belvg Jquery Module</title>
+                        <sort_order>10</sort_order>
+                    </jquery>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <jquery>
+                                        <title>Belvg Jquery Configuration</title>
+                                        <sort_order>10</sort_order>
+                                    </jquery>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

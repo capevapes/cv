@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_Verpage
+ * @version    1.0.2
+ * @copyright  Copyright (c) 2010 - 2013 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ */
+-->
+<config>
+    <modules>
+        <Belvg_Verpage>
+            <version>1.0.2</version>
+            <update>04-03-2014</update>
+            <desc>Stock Version</desc>
+        </Belvg_Verpage>
+    </modules>
+    <frontend>
+        <routers>
+            <verpage>
+                <use>standard</use>
+                <args>
+                    <module>Belvg_Verpage</module>
+                    <frontName>verpage</frontName>
+                </args>
+            </verpage>
+        </routers>
+        <translate>
+            <modules>
+                <Belvg_Verpage>
+                    <files>
+                        <default>Belvg_Verpage.csv</default>
+                    </files>
+                </Belvg_Verpage>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <verpage>
+                    <file>belvg/verpage.xml</file>
+                </verpage>
+            </updates>
+        </layout>
+        <events>
+            <belvg_jquery_dispatch_before>
+                <observers>
+                    <belvg_verpage_jquery_dispatch_before>
+                        <type>singleton</type>
+                        <class>verpage/observer</class>
+                        <method>verificate</method>
+                    </belvg_verpage_jquery_dispatch_before>
+                </observers>
+            </belvg_jquery_dispatch_before>
+        </events>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Belvg_Verpage>
+                    <files>
+                        <default>Belvg_Verpage.csv</default>
+                    </files>
+                </Belvg_Verpage>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <verpage>
+                    <file>belvg/verpage.xml</file>
+                </verpage>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>       
+        <resources>
+            <verpage_setup>
+                <setup>
+                    <module>Belvg_Verpage</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </verpage_setup>
+            <verpage_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </verpage_write>
+            <verpage_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </verpage_read>
+        </resources>
+        <models>
+            <verpage>
+                <class>Belvg_Verpage_Model</class>
+            </verpage>
+        </models>
+        <blocks>
+            <verpage>
+                <class>Belvg_Verpage_Block</class>
+            </verpage>
+        </blocks>
+        <helpers>
+            <verpage>
+                <class>Belvg_Verpage_Helper</class>
+            </verpage>
+        </helpers>
+    </global>
+    <default>
+        <verpage>
+            <settings>
+                <enabled>0</enabled>
+                <global>0</global>
+                <singlecheck>0</singlecheck>
+                <age>18</age>
+            </settings>
+            <window>
+                <logo_state>0</logo_state>
+                <width>100</width>
+                <height>100</height>
+                <text1_state>0</text1_state>
+                <text1></text1>
+                <buttons_state>buttons</buttons_state>
+                <leave>Leave</leave>
+                <enter>Enter</enter>
+                <text2_state>0</text2_state>
+                <text2></text2>
+                <confirm_state>0</confirm_state>
+                <confirm></confirm>
+            </window>
+            <advanced>
+                <styles_state>0</styles_state>
+                <styles></styles>
+            </advanced>
+        </verpage>
+    </default>
+    <jquery>
+        <compatibility>
+            <Belvg_Verpage>
+                <v1_8_3/>
+            </Belvg_Verpage>
+        </compatibility>
+    </jquery>
+</config>

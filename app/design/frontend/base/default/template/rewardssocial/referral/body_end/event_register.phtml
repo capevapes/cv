@@ -1,0 +1,51 @@
+<?php
+/**
+ * This file is responsible for observing sharing a referral link through Twitter or Facebook Share and firing our
+ * rearding process.
+ */
+?>
+
+<script type="text/javascript">
+/*
+This will need to be obfuscated.
+ */
+
+Event.observe(document, 'dom:loaded', function() {
+    // if ReferralShareReward is not defined, exit
+    if (typeof ReferralShareReward === 'undefined') {
+        return this;
+    }
+
+    window.oldShareFbAsyncInit = window.fbAsyncInit || function(){};
+    window.fbAsyncInit = function() {
+        window.oldShareFbAsyncInit();
+
+        eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('g.h(f,\'j:k\',e(0){4(0.7.b(\'8\')){4(d 5!==\'c\'){2 6=0.i.q(\'.s-t\'),3=6.u.l(\' \')[1]+\'-m\';2 9={n:5,3:3,o:0.7.8,};2 a=p v(9);a.r()}}});',32,32,'event||var|notificationElement|if|processReferralShareUri|widgetElement|memo|object_id|args|referralShareReward|hasOwnProperty|undefined|typeof|function|document|Event|observe|target|referral_share|response|split|notification|rewardUrl|fbObjectId|new|up|onShare|rewardssocial|widget|className|ReferralShareReward'.split('|'),0,{}))
+    };
+});
+
+
+Event.observe(document, 'dom:loaded', function() {
+    // if ReferralShareReward is not defined, exit
+    if (typeof ReferralShareReward === 'undefined') {
+        return this;
+    }
+
+    if (typeof twttr !== 'undefined') {
+        twttr.ready(function (twttr) {
+            // For bundle products there's a conflict with twttr.events.bind method ,
+            // after the method is called the bundle variables becomes undefined.
+            if (typeof bundle !== 'undefined') {
+                var mybundle = bundle;
+            }
+
+            eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('a.e.i(\'f\',g(3){4(3.5.h(\'d-c-b\')){4(o 7!==\'p\'){2 0=3.5.j().q.r(" ")[1]+\'-n\';2 8={k:7,0:0,};2 9=l m(8);9.s()}6}6});',29,29,'notificationElement||var|event|if|target|return|processReferralShareUri|args|referralShareReward|twttr|rewardable|referral|rewardssocial|events|tweet|function|hasClassName|bind|up|rewardUrl|new|ReferralShareReward|notification|typeof|undefined|className|split|onShare'.split('|'),0,{}))
+
+            if (typeof mybundle !== 'undefined') {
+                //restore the bundle
+                bundle = mybundle;
+            }
+        });
+    }
+});
+</script>

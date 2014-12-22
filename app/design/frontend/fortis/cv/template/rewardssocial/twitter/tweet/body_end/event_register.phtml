@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    document.observe("dom:loaded", function() {
+        // if TwitterTweetReward is not defined, exit
+        if (typeof TwitterTweetReward === 'undefined') {
+            return this;
+        }
+
+        (function() {
+            if (typeof twttr !== 'undefined') {
+                twttr.ready(function (twttr) {
+                    //For bundle products the bundle variable seems to conflict with twttr.events.bind method ,
+                    //after the method is called the bundle variables becomes undefined.
+                    if (typeof bundle !== 'undefined') {
+                        var mybundle = bundle;
+                    }
+
+                    var tweetReward = new TwitterTweetReward('<?php echo $this->getTweetProcessingUrl() ?>');
+                    eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5.6.4(\'3\',2(1){7(1.8.d(\'c-b\')){a.9();0}0});',14,14,'return|event|function|tweet|bind|twttr|events|if|target|onTweet|tweetReward|rewardable|rewardssocial|hasClassName'.split('|'),0,{}))
+
+                    //restore the bundle
+                    if (typeof mybundle !== 'undefined') {
+                        bundle = mybundle;
+                    }
+                });
+            }
+        })();
+    });
+</script>

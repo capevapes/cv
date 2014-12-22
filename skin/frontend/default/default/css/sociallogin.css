@@ -1,0 +1,134 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    DH
+ * @package     DH_Sociallogin
+ * @copyright   Copyright (c) 2013 DHZoanku
+ * @license     License GNU General Public License version 2 or later; 
+ */
+ 
+.dhsc-modal {
+    background: none repeat scroll 0 0 rgba(51, 51, 51, 0.3);
+    display: none;
+    padding: 10px;
+}
+.dhsc-modal-body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 10px 15px;
+    width: 600px;
+}
+.dhsc-close {
+    background: url("../images/sociallogin/btn-close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 14px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 14px;
+}
+.dhsc-error {
+    color: #EB340A;
+    font-size: 11px;
+    font-weight: bold;
+    width: 254px;
+}
+.dhsc-or {
+    background: url("../images/sociallogin/or.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    margin-right: -20px;
+    margin-top: -20px;
+    position: absolute;
+    right: -41px;
+    top: 50%;
+    width: 40px;
+}
+#bg_fade {
+    background-color: #555555;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.dhsc-fieldset {
+    background: url("../images/sociallogin/dotted.png") repeat-y scroll center top #FFFFFF;
+    overflow: hidden;
+}
+.dhsc-form {
+    float: left;
+    min-width: 254px;
+    position: relative;
+    text-align: left;
+}
+.actions {
+}
+.actions a {
+    display: inline-block;
+    float: right;
+}
+.dhsc-fbutton {
+}
+.dhsc-form-button {
+    float: right;
+    min-width: 254px;
+}
+.dhsc-buttons {
+    margin: 15px 0 0;
+    text-align: center;
+}
+.dhsc-button {
+    background: url("../images/sociallogin/dhsc-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin: 0 auto 5px;
+    text-indent: -999em;
+    width: 140px;
+}
+.fb {
+    background-position: 0 0;
+}
+.go {
+    background-position: 0 -30px;
+}
+.tw {
+    background-position: 0 -88px;
+}
+.ya {
+    background-position: 0 -59px;
+}
+.dh-button {
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    text-indent: -999em;
+    width: 32px;
+}
+.fb-button {
+    background: url("../images/sociallogin/facebook.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.go-button {
+    background: url("../images/sociallogin/google.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.tw-button {
+    background: url("../images/sociallogin/twitter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.ya-button {
+    background: url("../images/sociallogin/yahoo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

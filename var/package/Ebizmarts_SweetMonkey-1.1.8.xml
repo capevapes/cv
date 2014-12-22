@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ebizmarts_SweetMonkey</name>
+    <version>1.1.8</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">Extension license name (OSL v3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This small plugin uploads Sweet Tooth points data as merge vars to MailChimp.</summary>
+    <description>This small plugin uploads Sweet Tooth points data as merge vars to MailChimp.</description>
+    <notes>v 1.1.8
+Removing automatic email sending feature
+
+v 1.1.7
+Fixing bug on templates config naming
+
+v 1.1.6
+Fixing bug, adding missing email templates.
+
+v 1.1.5
+Adding new merge var, POINTS, with points amount as number
+
+v 1.1.4
+Point expiration as DATE merge vars.
+
+v 1.1.3
+Last time earning points" &amp; Last time spending points as DATE merge vars.
+
+v 1.1.2
+Translation strings.
+
+v 1.1.1
+First public release.</notes>
+    <authors><author><name>Ebizmarts</name><user>auto-converted</user><email>info@ebizmarts.com</email></author></authors>
+    <date>2013-05-06</date>
+    <time>20:34:36</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="sweetmonkey"><dir name="system"><dir name="config"><dir name="fieldset"><file name="hint.phtml" hash="f60a8dbc8dbb914758e18361cfdc97d4"/></dir><file name="autovars.phtml" hash="51d1d0af1992aaf71cb46df470ec7959"/></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Ebizmarts"><dir name="SweetMonkey"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Hint.php" hash="b7296d40dc88f3bde33450fb23b15ee2"/></dir><dir name="Form"><dir name="Field"><file name="Mapfields.php" hash="b3bb316c7a383828e6c94a90fadfb2e9"/></dir></dir><file name="Autovars.php" hash="28d3a352056156294b0271248d970b9d"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="MageMonkeyController.php" hash="ad730022b503ee854523b48fe139f1f0"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="b5a5cc7ad438d3f360ca3112883d2506"/><file name="config.xml" hash="c0e43a2f82270b379a98a016ec2f3fa9"/><file name="system.xml" hash="e9526acb8d92a986539e32fc52c5cacc"/></dir><dir name="Helper"><file name="Data.php" hash="10c9cd81ea6b8539c5bc0a57fd971b2a"/></dir><dir name="Model"><file name="Cron.php" hash="d6f3e9c96e8ec996be1e72a5ab11ff0b"/><file name="Observer.php" hash="4415aff994b1112c0d13bbfa7b6ae916"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Ebizmarts_SweetMonkey.csv" hash="f0cdb51ba2052ce7f7ec1c9885ee5d3c"/></dir></target><target name="mageetc"><dir name="modules"><file name="Ebizmarts_SweetMonkey.xml" hash="6f11afca77a152455342ebfcd9b20399"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><package><name>TBT_Rewards</name><channel>community</channel><min>1.7.4.0</min><max></max></package><package><name>Ebizmarts_MageMonkey</name><channel>community</channel><min>1.0.18</min><max></max></package></required></dependencies>
+</package>

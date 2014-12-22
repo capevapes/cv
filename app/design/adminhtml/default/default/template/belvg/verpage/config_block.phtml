@@ -1,0 +1,162 @@
+<?php
+/**
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_Verpage
+ * @version    1.0.3
+ * @copyright  Copyright (c) 2010 - 2014 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ */
+?>
+<?php if ($this->getRequest()->getParam('section') == 'verpage'): ?>
+<style>
+#verpage_window_logo {
+    width: 280px;
+}
+.section-config {
+    min-width: 850px;
+}
+body {
+    min-width: 1150px;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+Validation.addAllThese([
+    ['validate-no-html-tags', 'HTML tags are not allowed', function(v) {
+        return !/<(\/)?\w+/.test(v);
+    }],
+]);
+var picture_ratio = 1;
+var max_res = 500;
+document.observe('dom:loaded', function() {
+    initFields(val_limits);
+    if ($('verpage_window_logo_image')) {
+        logo_el = $('row_verpage_window_logo');
+        logo_el.select('img')[0].setAttribute('width','auto');
+        logo_el.select('img')[0].setAttribute('height','auto');
+        logo_el.select('img')[0].setAttribute('style', 'max-width:200px;position:absolute;margin-top:-34px;margin-left:20px;max-height: 168px;');
+        logo_el.select('td').last().insert(logo_el.select('a').last().innerHTML);
+        logo_el.select('a')[0].remove();
+        logo_el.select('.delete-image')[0].remove();
+        var image = new Image();
+        image.src = $('verpage_window_logo_image').src;
+        var timeInt = setInterval( function(){
+            if (image.width && image.height) {
+                clearInterval(timeInt);
+                $('rs-width').innerHTML = image.width;
+                $('rs-height').innerHTML = image.height;
+                picture_ratio = image.width/image.height;
+                $('verpage_window_width').observe('change', function(){
+                    if ($('verpage_window_ratio').value == '1') {
+                        height = $('verpage_window_width').value/picture_ratio;
+                        if (height <= max_res) {
+                            $('verpage_window_height').value = parseInt(height);
+                        } else {
+                            height = max_res;
+                            width = parseInt(height*picture_ratio);
+                            $('verpage_window_height').value = height;
+                            $('verpage_window_width').value = width;
+                        }
+                    }
+                });
+                $('verpage_window_height').observe('change', function(){
+                    if ($('verpage_window_ratio').value == '1') {
+                        width = $('verpage_window_height').value*picture_ratio;
+                        if (width <= max_res) {
+                            $('verpage_window_width').value = parseInt(width);
+                        } else {
+                            width = max_res;
+                            height = parseInt(width/picture_ratio);
+                            $('verpage_window_height').value = height;
+                            $('verpage_window_width').value = width;
+                        }
+                    }
+                });
+            }
+        }, 100);
+    } else {
+        $('verpage_window_logo').addClassName('required-entry');
+        tmp = $$('#row_verpage_window_logo .label label')[0].innerHTML;
+        $$('#row_verpage_window_logo .label label')[0].innerHTML = tmp + " <span class='required'>*</span>";
+        $('rs-width').up().remove();
+    };
+    /* magento 1.5 */
+    if ($$('.system-tooltip-box').length) {
+        tipfields = ['row_verpage_window_logo_state',
+                     'row_verpage_window_logo',
+                     'row_verpage_window_width',
+                     'row_verpage_window_height',
+                     'row_verpage_window_text1_state',
+                     'row_verpage_window_buttons_state',
+                     'row_verpage_window_text2_state',
+                     'row_verpage_window_confirm_state'];
+        tipfields.each( function(el){
+            $(el).select('td').each( function(td){
+                td.observe('mouseover', function(){
+                    $$('#row_verpage_window_logo td img')[0].hide();
+                });
+                td.observe('mouseout', function(){
+                    $$('#row_verpage_window_logo td img')[0].show();
+                });
+            });
+        });
+        $$('#row_verpage_window_logo td').last().stopObserving('mouseover');
+        $$('#row_verpage_window_logo td').last().stopObserving('mouseout');
+        $$('#row_verpage_window_logo td').last().observe('mouseover', function(){
+            setTimeout( function(){
+                $('row_verpage_window_logo_comment').setStyle({display: 'none'});
+            },1);
+        });
+    };
+    /* magento 1.5 */
+
+});
+var def_values = new Object;
+var val_limits = {
+    'verpage_settings_age':{'min':1, 'max':100, 'length':3},
+    'verpage_window_width':{'min':1, 'max':500, 'length':3},
+    'verpage_window_height':{'min':1, 'max':500, 'length':3},
+    'verpage_window_leave':{'min':false, 'max':false, 'length':40},
+    'verpage_window_enter':{'min':false, 'max':false, 'length':40},
+    'verpage_window_confirm':{'min':false, 'max':false, 'length':100},
+    'auto_scroll_delay':{'max':99999, 'length':5}
+};
+function initFields(val_limits) {
+    for (var key in val_limits) {
+        $$('#'+key).each( function(el) {
+            def_values[el.name] = el.value;
+            el.setAttribute('maxlength', val_limits[key]['length']);
+            if (val_limits[key]['max'] && val_limits[key]['min']) {
+                el.observe('change', function(){
+                    tmp = parseInt(this.value.replace(/^\s+|\s+$/g,''));
+                    if (isNaN(tmp)) {
+                        this.value = def_values[this.name];
+                    } else {
+                        if (tmp > val_limits[this.id]['max']) {
+                            this.value = val_limits[this.id]['max'];
+                        } else if (tmp < val_limits[this.id]['min']) {
+                            this.value = val_limits[this.id]['min'];
+                        } else {
+                            this.value = parseInt(this.value.replace(/^\s+|\s+$/g,''));
+                        }
+                    }
+                });
+            } else {
+                el.observe('change', function(){
+                    this.value = this.value.replace(/^\s+|\s+$/g,'');
+                })
+            }
+        });
+    };
+};
+</script>
+<?php endif ?>

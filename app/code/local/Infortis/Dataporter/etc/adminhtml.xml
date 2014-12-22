@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+	<acl>
+		<resources>
+			<all>
+				<title>Allow Everything</title>
+			</all>
+			<admin>
+				<children>
+					<infortis>
+						<title>Infortis</title>
+						<sort_order>90</sort_order>
+						<children>
+							<dataporter translate="title" module="dataporter">
+								<title>Dataporter</title>
+								<sort_order>100</sort_order>
+							</dataporter>
+						</children>
+					</infortis>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

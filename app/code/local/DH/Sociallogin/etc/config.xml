@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<DH_Sociallogin>
+			<version>1.0.3</version>
+		</DH_Sociallogin>
+	</modules>
+
+	<global>
+		<models>
+			<sociallogin>
+				<class>DH_Sociallogin_Model</class>
+			</sociallogin>
+		</models>
+		
+		<helpers>
+			<sociallogin>
+				<class>DH_Sociallogin_Helper</class>
+			</sociallogin>
+		</helpers>
+		
+		<blocks>
+            <sociallogin>
+            	<class>DH_Sociallogin_Block</class>
+            </sociallogin>
+    	</blocks>
+	</global>
+	
+	<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <sociallogin>
+                                            <title>Sociallogin</title>
+                                        </sociallogin>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <translate>
+            <modules>
+                <DH_Sociallogin>
+                    <files>
+                        <default>DH_Sociallogin.csv</default>
+                    </files>
+                </DH_Sociallogin>
+            </modules>
+        </translate>
+    </adminhtml>
+	
+	<frontend>
+        <routers>
+        	<sociallogin>
+                <use>standard</use>
+                <args>
+                    <module>DH_Sociallogin</module>
+                    <frontName>sociallogin</frontName>
+                </args>
+            </sociallogin>
+        </routers>
+        <layout>
+            <updates>
+                <sociallogin>
+                    <file>sociallogin.xml</file>
+                </sociallogin>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <DH_Sociallogin>
+                    <files>
+                        <default>DH_Sociallogin.csv</default>
+                    </files>
+                </DH_Sociallogin>
+            </modules>
+        </translate>
+    </frontend>
+    
+    <default>
+        <sociallogin>
+            <general>
+                  <enable>1</enable>
+                  <use_fb>1</use_fb>
+                  <use_go>1</use_go>
+                  <use_tw>1</use_tw>
+                  <use_ya>1</use_ya>
+            </general>
+        </sociallogin>
+    </default>
+	
+</config>

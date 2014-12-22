@@ -1,0 +1,15 @@
+<script type="text/javascript">
+var processFbProductShareUrl = '<?php echo $this->getProcessingUrl(); ?>';
+
+Event.observe(document, 'dom:loaded', function() {
+    // if FacebookShareReward is not defined, exit
+    if (typeof FacebookShareReward === 'undefined') {
+        return this;
+    }
+    window.oldFbAsyncInit2 = window.fbAsyncInit || function() {};
+    window.fbAsyncInit = function() {
+        window.oldFbAsyncInit2();
+        eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('m.l(n,\'o:p\',k(0){9(0.e.g(\'f\')){9(i 7!==\'j\'){d 3=0.h.8(\'.q-w\'),4=3.b.6(\' \')[1]+\'-r\',a=3.8(),2=A[\'B\'+a.b.6(\' \')[1]].2,5={t:7,4:4,v:0.e.f,};u.s(5,2);d c=z y(5);c.x()}}});',38,38,'event||data|widgetElement|notificationElement|args|split|processFbProductShareUrl|up|if|widgetsElement|className|productShareReward|var|memo|object_id|hasOwnProperty|target|typeof|undefined|function|observe|Event|document|facebook_product_share|response|rewardssocial|notification|extend|rewardUrl|Object|fbObjectId|widget|onShare|FacebookShareReward|new|window|rewardsSocialWidgetHover'.split('|'),0,{}))
+    };
+});
+</script>

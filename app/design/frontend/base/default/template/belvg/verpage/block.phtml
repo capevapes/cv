@@ -1,0 +1,102 @@
+<?php
+/**
+ * BelVG LLC.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ *
+ *******************************************************************
+ * @category   Belvg
+ * @package    Belvg_Verpage
+ * @version    1.0.3
+ * @copyright  Copyright (c) 2010 - 2014 BelVG LLC. (http://www.belvg.com)
+ * @license    http://store.belvg.com/BelVG-LICENSE-COMMUNITY.txt
+ */
+?>
+<a href="#verpage" style="display: none;" class="nyroModal">(hidden div)</a>
+<div id="verpage" class="block" style="display:none;">
+    <?php if (Mage::getStoreConfigFlag('verpage/window/lang_state')): ?>
+    <?php echo $this->getChildHtml('ver_store_language'); ?>
+    <?php endif; ?>
+    <?php if ($logo = $this->getLogo()): ?>
+    <div class="verpage_logo">
+        <?php echo $logo ?>  
+    </div>
+    <?php endif; ?>
+    <?php if ($text = $this->getText(1)): ?>
+    <div class="verpage_text">
+        <?php echo $text ?>
+    </div>
+    <?php endif; ?>
+    <div class="verpage_select">
+        <?php echo $this->getVerSelect() ?>
+    </div>
+    <div class="verpage_actions">
+        <button class="button exit" title="Exit" type="submit">
+            <span>
+                <span><?php echo $this->getLeaveText() ?></span>
+            </span>
+        </button>
+        <button class="button enter disabled" title="Enter" type="submit">
+            <span>
+                <span><?php echo $this->getEnterText() ?></span>
+            </span>
+        </button>
+    </div>
+    <?php if ($text = $this->getText(2)): ?>
+    <div class="verpage_text">
+        <?php echo $text ?>    
+    </div>
+    <?php endif; ?>
+    <?php if ($confirmText = $this->getConfirmText()): ?>
+    <div class="verpage_confirm">
+        <input id="verpage_confirm" class="checkbox" type="checkbox" value="1" name="verpage_confirm">
+        <label for="verpage_confirm"><?php echo $confirmText ?></label>
+    </div>
+    <?php endif; ?>
+</div>
+<script type="text/javascript">
+<?php if (Mage::getStoreConfigFlag('verpage/settings/singlecheck')): ?>
+if (!verpage.isValid()) {
+<?php endif; ?>
+jQblvg(document).ready( function() {
+    verpage.age = <?php echo (int)$this->getVerAge() ?>;
+    verpage.cookieLifetime = <?php echo (int)$this->getCookieLifetime() ?>;
+    verpage.rimageWidth = jQblvg('.verpage_logo img').attr('width');
+    verpage.rimageHeight = jQblvg('.verpage_logo img').attr('height');
+    jQblvg.nmObj({closeOnClick: false, closeOnEscape: false, closeButton: false})
+    jQblvg('.nyroModal').nm();
+    jQblvg('.nyroModal').trigger('click');
+    setTimeout( function(){ jQblvg('.nyroModal').nm().resize(); }, 1000);
+    jQblvg('.verpage_actions .exit').click( function() {
+        <?php if ($leaveUrl = Mage::helper('verpage')->getLeaveUrl()): ?>
+        window.location = '<?php echo $leaveUrl ?>';
+        <?php else: ?>
+        history.back();
+        <?php endif; ?>
+    });
+    verpage.checkEnterButton();
+    verpage.resizeImage();
+    jQblvg(window).resize( function(){
+        verpage.resizeImage();
+    });
+    jQblvg('.verpage_select select').change( function() {
+        verpage.checkEnterButton();  
+    });
+    jQblvg('#verpage_confirm').change( function() {
+        verpage.checkEnterButton();
+    });
+});
+<?php if (Mage::getStoreConfigFlag('verpage/settings/singlecheck')): ?>
+};
+<?php endif; ?>
+</script>
+<?php if ($styles = $this->getStyles()): ?>
+<style type="text/css">
+    <?php echo $styles ?>
+</style>
+<?php endif; ?>

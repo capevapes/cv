@@ -1,0 +1,1414 @@
+2014-09-24T21:34:51+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 8294
+)
+
+2014-09-24T21:34:51+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 8294
+)
+
+2014-10-09T10:33:36+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7521
+)
+
+2014-10-09T10:33:36+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7521
+)
+
+2014-10-09T10:46:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7519
+)
+
+2014-10-09T10:46:42+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7519
+)
+
+2014-10-09T10:47:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7520
+)
+
+2014-10-09T10:47:01+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7520
+)
+
+2014-10-09T10:48:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7518
+)
+
+2014-10-09T10:48:42+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7518
+)
+
+2014-10-09T11:00:18+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7520
+)
+
+2014-10-09T11:00:18+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7520
+)
+
+2014-11-06T17:21:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2014-11-06 17:21:19
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 628b50d55d
+            [email] => wootenkb@gmail.com
+            [email_type] => html
+            [ip_opt] => 162.252.107.45
+            [web_id] => 216305917
+            [merges] => Array
+                (
+                    [EMAIL] => wootenkb@gmail.com
+                    [FNAME] => Brad
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 23517
+)
+
+2014-11-06T17:29:00+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 8631
+)
+
+2014-11-06T17:29:00+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 8631
+)
+
+2014-11-06T17:29:51+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7416
+)
+
+2014-11-06T17:29:51+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7416
+)
+
+2014-11-06T17:33:45+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 7515
+)
+
+2014-11-06T17:33:45+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 7515
+)
+
+2014-11-06T17:49:52+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-11-06 17:50:06
+    [data] => Array
+        (
+            [id] => 628b50d55d
+            [email] => wootenkb@gmail.com
+            [email_type] => html
+            [ip_opt] => 66.169.21.34
+            [ip_signup] => 162.252.107.45
+            [web_id] => 227107793
+            [merges] => Array
+                (
+                    [EMAIL] => wootenkb@gmail.com
+                    [FNAME] => Brad
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 7515
+)
+
+2014-11-06T18:09:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-11-06 18:10:10
+    [data] => Array
+        (
+            [id] => 628b50d55d
+            [email] => wootenkb@gmail.com
+            [email_type] => html
+            [ip_opt] => 66.169.21.34
+            [ip_signup] => 162.252.107.45
+            [web_id] => 227107793
+            [merges] => Array
+                (
+                    [EMAIL] => wootenkb@gmail.com
+                    [FNAME] => Brad
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 8621
+)
+
+2014-11-06T18:10:49+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-11-06 18:11:04
+    [data] => Array
+        (
+            [id] => 628b50d55d
+            [email] => wootenkb@gmail.com
+            [email_type] => html
+            [ip_opt] => 66.169.21.34
+            [ip_signup] => 162.252.107.45
+            [web_id] => 227107793
+            [merges] => Array
+                (
+                    [EMAIL] => wootenkb@gmail.com
+                    [FNAME] => Brad
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 8622
+)
+
+2014-11-25T00:27:32+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-11-25 00:27:54
+    [data] => Array
+        (
+            [id] => 1f06f205d8
+            [email] => kristykempster@gmail.com
+            [email_type] => html
+            [ip_opt] => 97.95.224.232
+            [ip_signup] => 162.252.107.45
+            [web_id] => 252643897
+            [merges] => Array
+                (
+                    [EMAIL] => kristykempster@gmail.com
+                    [FNAME] => Kristy
+                    [LNAME] => Kempster
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 11838
+)
+
+2014-12-05T03:07:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-05 03:07:43
+    [data] => Array
+        (
+            [id] => 6e071efea9
+            [email] => darienis@hotmail.com
+            [email_type] => html
+            [ip_opt] => 24.177.18.70
+            [ip_signup] => 162.252.107.45
+            [web_id] => 258924185
+            [merges] => Array
+                (
+                    [EMAIL] => darienis@hotmail.com
+                    [FNAME] => Darien
+                    [LNAME] => Cameron
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 27401
+)
+
+2014-12-05T19:00:15+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-05 19:00:42
+    [data] => Array
+        (
+            [id] => 95adf31ac2
+            [email] => nembree622@yahoo.com
+            [email_type] => html
+            [ip_opt] => 70.197.171.190
+            [ip_signup] => 162.252.107.45
+            [web_id] => 259352593
+            [merges] => Array
+                (
+                    [EMAIL] => nembree622@yahoo.com
+                    [FNAME] => Michael
+                    [LNAME] => Embree
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 24390
+)
+
+2014-12-06T05:14:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 05:14:57
+    [data] => Array
+        (
+            [id] => 48b550339d
+            [email] => gabeeddy@yahoo.com
+            [email_type] => html
+            [ip_opt] => 71.9.197.66
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259442869
+            [merges] => Array
+                (
+                    [EMAIL] => gabeeddy@yahoo.com
+                    [FNAME] => Gabriel
+                    [LNAME] => Eddy
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 27727
+)
+
+2014-12-06T05:18:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2014-12-06 05:18:34
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 4bcbb9485a
+            [email] => nataliewooten@gmail.com
+            [email_type] => html
+            [ip_opt] => 162.252.107.45
+            [web_id] => 232175765
+            [merges] => Array
+                (
+                    [EMAIL] => nataliewooten@gmail.com
+                    [FNAME] => Natalie
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => No Points
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 1266
+)
+
+2014-12-06T05:18:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2014-12-06 05:18:34
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 112aa0ae84
+            [email] => natalie@hybridvapes.com
+            [email_type] => html
+            [ip_opt] => 162.252.107.45
+            [web_id] => 227150213
+            [merges] => Array
+                (
+                    [EMAIL] => natalie@hybridvapes.com
+                    [FNAME] => Natalie
+                    [LNAME] => Wooten
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => No Points
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 12527
+)
+
+2014-12-06T05:18:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2014-12-06 05:18:34
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => f35420790b
+            [email] => st_test@wdca.ca
+            [email_type] => html
+            [ip_opt] => 162.252.107.45
+            [web_id] => 227150217
+            [merges] => Array
+                (
+                    [EMAIL] => st_test@wdca.ca
+                    [FNAME] => st
+                    [LNAME] => test
+                    [CGROUP] => General
+                    [POINTS] => 
+                    [PTS] => No Points
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 13098
+)
+
+2014-12-06T05:36:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 05:37:10
+    [data] => Array
+        (
+            [id] => 512ca52027
+            [email] => Bengyelk@gmail.com
+            [email_type] => html
+            [ip_opt] => 99.12.74.225
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259443197
+            [merges] => Array
+                (
+                    [EMAIL] => Bengyelk@gmail.com
+                    [FNAME] => Kevin
+                    [LNAME] => Bengyel
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 29692
+)
+
+2014-12-06T06:45:15+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 06:45:42
+    [data] => Array
+        (
+            [id] => 2cd44e3548
+            [email] => bunched.arrowhead@gmail.com
+            [email_type] => html
+            [ip_opt] => 24.158.55.137
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259443789
+            [merges] => Array
+                (
+                    [EMAIL] => bunched.arrowhead@gmail.com
+                    [FNAME] => Monica
+                    [LNAME] => Barker
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 3598
+)
+
+2014-12-06T07:21:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 07:21:55
+    [data] => Array
+        (
+            [id] => 1862624ad3
+            [email] => mlaetetcarter32@yahoo.com
+            [email_type] => html
+            [ip_opt] => 206.248.216.131
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259456597
+            [merges] => Array
+                (
+                    [EMAIL] => mlaetetcarter32@yahoo.com
+                    [FNAME] => matt
+                    [LNAME] => carter
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 12968
+)
+
+2014-12-06T08:00:34+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 08:01:01
+    [data] => Array
+        (
+            [id] => 45d04df061
+            [email] => Tsmit1989@gmail.com
+            [email_type] => html
+            [ip_opt] => 99.41.144.103
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259451701
+            [merges] => Array
+                (
+                    [EMAIL] => Tsmit1989@gmail.com
+                    [FNAME] => Timmy
+                    [LNAME] => Smith
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 20137
+)
+
+2014-12-06T08:38:02+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 08:38:29
+    [data] => Array
+        (
+            [id] => a6125b83aa
+            [email] => furevernlv6@yahoo.com
+            [email_type] => html
+            [ip_opt] => 99.12.74.225
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259443325
+            [merges] => Array
+                (
+                    [EMAIL] => furevernlv6@yahoo.com
+                    [FNAME] => andrea
+                    [LNAME] => bengyel
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 1266
+)
+
+2014-12-06T10:23:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 10:24:15
+    [data] => Array
+        (
+            [id] => 3bb224942d
+            [email] => Desstanee@yahoo.com
+            [email_type] => html
+            [ip_opt] => 24.176.89.229
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259468469
+            [merges] => Array
+                (
+                    [EMAIL] => Desstanee@yahoo.com
+                    [FNAME] => Sallie
+                    [LNAME] => Barkley
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 3598
+)
+
+2014-12-06T13:06:15+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 13:06:43
+    [data] => Array
+        (
+            [id] => a8bf71d1bc
+            [email] => Rarutland@gmail.com
+            [email_type] => html
+            [ip_opt] => 97.89.184.26
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259488649
+            [merges] => Array
+                (
+                    [EMAIL] => Rarutland@gmail.com
+                    [FNAME] => Rebekah
+                    [LNAME] => Trieper
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 7464
+)
+
+2014-12-06T13:32:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 13:32:49
+    [data] => Array
+        (
+            [id] => 71899da1e3
+            [email] => jthmp419@yahoo.com
+            [email_type] => html
+            [ip_opt] => 70.210.9.113
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259488049
+            [merges] => Array
+                (
+                    [EMAIL] => jthmp419@yahoo.com
+                    [FNAME] => jeff
+                    [LNAME] => thompson
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 12976
+)
+
+2014-12-06T14:18:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 14:18:59
+    [data] => Array
+        (
+            [id] => 91021b9cad
+            [email] => split1174@gmail.com
+            [email_type] => html
+            [ip_opt] => 66.83.215.82
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259440761
+            [merges] => Array
+                (
+                    [EMAIL] => split1174@gmail.com
+                    [FNAME] => Chris
+                    [LNAME] => Hawley
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 27727
+)
+
+2014-12-06T14:24:11+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 14:24:39
+    [data] => Array
+        (
+            [id] => a4459e59e9
+            [email] => shannonkbolt74@hotmail.com
+            [email_type] => html
+            [ip_opt] => 172.56.26.141
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259506741
+            [merges] => Array
+                (
+                    [EMAIL] => shannonkbolt74@hotmail.com
+                    [FNAME] => shannon
+                    [LNAME] => bolt
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 913
+)
+
+2014-12-06T14:54:39+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 14:55:07
+    [data] => Array
+        (
+            [id] => 20351daa03
+            [email] => gunnyman@gmail.com
+            [email_type] => html
+            [ip_opt] => 66.102.6.78
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259528449
+            [merges] => Array
+                (
+                    [EMAIL] => gunnyman@gmail.com
+                    [FNAME] => Gunny
+                    [LNAME] => Wallen
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 13098
+)
+
+2014-12-06T15:14:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 15:14:32
+    [data] => Array
+        (
+            [id] => d8657bd392
+            [email] => rick7667@yahoo.com
+            [email_type] => html
+            [ip_opt] => 184.6.149.116
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259470213
+            [merges] => Array
+                (
+                    [EMAIL] => rick7667@yahoo.com
+                    [FNAME] => Rick
+                    [LNAME] => Smith
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 27727
+)
+
+2014-12-06T23:12:43+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-06 23:13:10
+    [data] => Array
+        (
+            [id] => a6125b83aa
+            [email] => furevernlv6@yahoo.com
+            [email_type] => html
+            [ip_opt] => 99.12.74.225
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259443325
+            [merges] => Array
+                (
+                    [EMAIL] => furevernlv6@yahoo.com
+                    [FNAME] => andrea
+                    [LNAME] => bengyel
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 13735
+)
+
+2014-12-07T02:43:11+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-07 02:43:38
+    [data] => Array
+        (
+            [id] => 930fd3fb7c
+            [email] => barbaralollis@ymail.com
+            [email_type] => html
+            [ip_opt] => 71.12.209.211
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259634061
+            [merges] => Array
+                (
+                    [EMAIL] => barbaralollis@ymail.com
+                    [FNAME] => barbara
+                    [LNAME] => lollis
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 913
+)
+
+2014-12-07T06:18:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-07 06:18:59
+    [data] => Array
+        (
+            [id] => a59719915f
+            [email] => juggalobecher@yahoo.com
+            [email_type] => html
+            [ip_opt] => 66.87.153.207
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259649793
+            [merges] => Array
+                (
+                    [EMAIL] => juggalobecher@yahoo.com
+                    [FNAME] => Sean
+                    [LNAME] => Becher
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 25920
+)
+
+2014-12-07T06:31:52+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-07 06:32:20
+    [data] => Array
+        (
+            [id] => 2350198794
+            [email] => moosedog81@hotmail.com
+            [email_type] => html
+            [ip_opt] => 50.102.188.164
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259649777
+            [merges] => Array
+                (
+                    [EMAIL] => moosedog81@hotmail.com
+                    [FNAME] => David
+                    [LNAME] => Benn
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 29888
+)
+
+2014-12-07T15:03:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-07 15:03:52
+    [data] => Array
+        (
+            [id] => 6f14ad52df
+            [email] => soundwave2thousand@yahoo.com
+            [email_type] => html
+            [ip_opt] => 70.194.75.121
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259701021
+            [merges] => Array
+                (
+                    [EMAIL] => soundwave2thousand@yahoo.com
+                    [FNAME] => Jason
+                    [LNAME] => Fogler
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 18562
+)
+
+2014-12-07T21:52:51+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-07 21:53:19
+    [data] => Array
+        (
+            [id] => f2f34034a4
+            [email] => patricknabbiesnana@gmail.com
+            [email_type] => html
+            [ip_opt] => 68.187.168.28
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259633569
+            [merges] => Array
+                (
+                    [EMAIL] => patricknabbiesnana@gmail.com
+                    [FNAME] => Sandi
+                    [LNAME] => Phillips
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 18837
+)
+
+2014-12-08T00:56:45+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-08 00:57:13
+    [data] => Array
+        (
+            [id] => 3f954a179b
+            [email] => brad@wootencomputer.com
+            [email_type] => html
+            [ip_opt] => 66.87.133.244
+            [ip_signup] => 199.182.121.254
+            [web_id] => 260313649
+            [merges] => Array
+                (
+                    [EMAIL] => brad@wootencomputer.com
+                    [FNAME] => Brad
+                    [LNAME] => Wooten
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 19327
+)
+
+2014-12-09T04:01:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-09 04:01:35
+    [data] => Array
+        (
+            [id] => a457e3c146
+            [email] => jkjprince@yahoo.com
+            [email_type] => html
+            [ip_opt] => 100.42.153.235
+            [ip_signup] => 199.182.121.254
+            [web_id] => 265580721
+            [merges] => Array
+                (
+                    [EMAIL] => jkjprince@yahoo.com
+                    [FNAME] => Jamie
+                    [LNAME] => Prince
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 17161
+)
+
+2014-12-09T04:14:53+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-09 04:15:22
+    [data] => Array
+        (
+            [id] => 0c39574e72
+            [email] => mnardelli@comcast.net
+            [email_type] => html
+            [ip_opt] => 174.57.64.180
+            [ip_signup] => 199.182.121.254
+            [web_id] => 265653629
+            [merges] => Array
+                (
+                    [EMAIL] => mnardelli@comcast.net
+                    [FNAME] => michael
+                    [LNAME] => nardelli
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 12584
+)
+
+2014-12-09T13:36:15+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-09 13:36:44
+    [data] => Array
+        (
+            [id] => aa80370848
+            [email] => hollifieldrobert69@yahoo.com
+            [email_type] => html
+            [ip_opt] => 67.236.12.147
+            [ip_signup] => 199.182.121.254
+            [web_id] => 265589321
+            [merges] => Array
+                (
+                    [EMAIL] => hollifieldrobert69@yahoo.com
+                    [FNAME] => robert
+                    [LNAME] => hollifield
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 25556
+)
+
+2014-12-10T22:28:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-10 22:28:36
+    [data] => Array
+        (
+            [id] => 93d8150b39
+            [email] => zombiesatemyneighbors15620@gmail.com
+            [email_type] => html
+            [ip_opt] => 68.187.175.95
+            [ip_signup] => 199.182.121.254
+            [web_id] => 260313653
+            [merges] => Array
+                (
+                    [EMAIL] => zombiesatemyneighbors15620@gmail.com
+                    [FNAME] => Justin
+                    [LNAME] => Wilson
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 24504
+)
+
+2014-12-11T18:30:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-11 18:31:25
+    [data] => Array
+        (
+            [id] => f9a97a5b40
+            [email] => abentley77@gmail.com
+            [email_type] => html
+            [ip_opt] => 139.216.193.41
+            [ip_signup] => 199.182.121.254
+            [web_id] => 274244657
+            [merges] => Array
+                (
+                    [EMAIL] => abentley77@gmail.com
+                    [FNAME] => Adam
+                    [LNAME] => Bentley
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 3272
+)
+
+2014-12-11T20:45:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => subscribe
+    [fired_at] => 2014-12-11 20:45:54
+    [data] => Array
+        (
+            [id] => eae4978fee
+            [email] => Suttonjosh19@yahoo.com
+            [email_type] => html
+            [ip_opt] => 166.182.3.111
+            [ip_signup] => 199.182.121.254
+            [web_id] => 259886157
+            [merges] => Array
+                (
+                    [EMAIL] => Suttonjosh19@yahoo.com
+                    [FNAME] => Joshua
+                    [LNAME] => Sutton
+                    [CGROUP] => 
+                    [POINTS] => 
+                    [PTS] => 
+                    [PTSEXP] => 
+                    [PTSEARN] => 
+                    [PTSSPENT] => 
+                )
+
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 751
+)
+
+2014-12-13T20:36:36+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2014-12-13 20:37:07
+    [data] => Array
+        (
+            [id] => 9844c43519
+            [subject] => Cape Vapes - Atlantis Giveaway
+            [status] => sent
+            [reason] => 
+            [list_id] => 68492baf6a
+        )
+
+)
+
+    [__pid] => 17852
+)
+
+2014-12-20T22:03:53+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 6422
+)
+
+2014-12-20T22:03:53+00:00 DEBUG (7): Array
+(
+    [0] => Webhook call ended
+    [__pid] => 6422
+)
+

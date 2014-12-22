@@ -1,0 +1,269 @@
+/**
+ * Override CSS components
+ */
+
+
+
+/* Tabs %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* Tabs: skin fortis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.gen-tabs-style-f .tabs {
+	border-radius: 2px;
+	padding: 10px 10px 0;
+}
+.gen-tabs-style-f .tabs li {
+	margin-right: 4px;
+}
+.gen-tabs-style-f .tabs a {
+	border:none;
+	border-radius: 2px 2px 0 0;
+	font-size:1.1666em; /*14px*/
+	line-height: 2.8571em; /*40px*/
+}
+.gen-tabs-style-f .tabs a:hover,
+.gen-tabs-style-f .tabs a:focus,
+.gen-tabs-style-f .tabs a.current {
+}
+
+/* Accordion */
+.gen-tabs-style-f .acctab { border-radius: 2px; }
+
+/* Panels */
+.gen-tabs-style-f .tabs-panels { padding: 15px; }
+.gen-tabs-style-f.accor .tabs-panels { padding: 0; background-color: transparent; }
+
+
+/* Header of the Related Products block - style similar to tabs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.block-related .section-title { font-size:1.1666em; /*14px*/ }
+.box-additional .block-related .section-title {
+	/* Similar style as tabs on product page */
+	padding: 5px 10px;
+	font-size:1.1666em; /*14px*/
+	line-height: 2.8571em; /*40px*/
+	border: none;
+}
+
+/* Align block title with the tabs on product page */
+.block-related-thumbnails .owl-wrapper { margin-top:15px; }
+
+/* Slider arrows position */
+.box-additional .block-related .owl-buttons {
+	top:-40px;
+	right: 10px;
+}
+
+/* Color of arrows */
+.box-additional .block-related .owl-controls			.owl-buttons div { background-color: #fff; }
+.box-additional .block-related .owl-controls.clickable	.owl-buttons div:hover { background-color: #000; }
+.box-additional .block-related .owl-controls.clickable	.owl-buttons div.disabled:hover { background-color: #fff; }
+
+	/* Deprecated: */
+	.box-additional .block-related .direction-nav { top: -40px; right: 10px; }
+	.box-additional .block-related .direction-nav a { background-color: #fff; }
+	.box-additional .block-related .direction-nav a:hover { background-color: #000; }
+	.box-additional .block-related .direction-nav .disabled:hover { background-color: #fff; }
+
+
+
+
+
+/* Products grid and List %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* View Type: List
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Hover effect */
+.products-list.hover-effect .item:hover {
+	margin-left:-1%;
+	margin-right:-1%;
+	padding-left:1%;
+	padding-right:1%;
+	z-index:10;
+	box-shadow:0 0 20px rgba(0,0,0,0.25);
+}
+
+
+/* View Type: Grid
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* Grid: only in category view
+-------------------------------------------------------------- */
+.category-products-grid .item {
+	border-top:none; /*1px solid #e5e5e5;*/
+	border-left:none;
+	border-right:none;
+	zoom:1;
+
+	padding-top:3%;
+	padding-bottom:25px; /*TODO: replace with % */
+	padding-left:1%;
+	padding-right:1%;
+	/*transition: padding-left 200ms ease-in-out, padding-left 200ms ease-in-out, padding-right 200ms ease-in-out, margin-left 200ms ease-in-out, margin-right 200ms ease-in-out;*/
+}
+
+	/* Equal height of items (buttons displayed at the bottom of items)
+	-------------------------------------------------------------- */
+	.category-products-grid.equal-height .item .actions { bottom:20px; } /*TODO: check*/
+
+	/* Hover effect
+	-------------------------------------------------------------- */
+	.category-products-grid.hover-effect .item:hover {
+		margin-left:-2%;
+		margin-right:-2%;
+		padding-left:3%;
+		padding-right:3%;
+		z-index:10;
+		box-shadow:0 2px 20px rgba(0,0,0, 0.25);
+		border-color:transparent;
+		border-radius:4px;
+	}
+
+
+
+
+/* Products grid and list: style 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* Products list: style 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.products-list-style1 {
+	margin-top: 10px;
+	padding: 1%;
+}
+.products-list-style1 .item {
+	box-shadow: 1px 1px 3px rgba(0,0,0, 0.15);
+	border-top:none;
+	margin:1% 1% 2%; /* Double bottom margin because margins are collapsing */
+	padding: 3% 2%;
+}
+.products-list-style1 .item.last {
+	margin-bottom: 1%; /* Bottom margin of the last item has to be decreased */
+}
+
+	/* Hover effect */
+	.products-list-style1.hover-effect .item:hover {
+		margin-left:1%;
+		margin-right:1%;
+		padding-left:2%;
+		padding-right:2%;
+		z-index:10;
+		box-shadow:1px 2px 6px rgba(0, 0, 0, 0.2);
+		border-color:transparent;
+	}
+
+
+/* Grid: style 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.products-grid-style1 {
+	margin-top: 10px;
+	padding: 1%; /* The same value as items margin */
+}
+.products-grid-style1 .item {
+	padding-bottom: 25px;
+	box-shadow: 1px 1px 3px rgba(0,0,0, 0.15);
+}
+
+	/* Items of equal height - buttons and links displayed at the bottom of item
+	-------------------------------------------------------------- */
+	.products-grid-style1.equal-height .item .actions { bottom:20px; }
+
+/* Grid: only in category view
+-------------------------------------------------------------- */
+.products-grid-style1.category-products-grid .item {
+	border-top:none;
+	margin:1%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:3%; /* The same value as side padding on hover */
+}
+
+	/* Hover effect */
+	.products-grid-style1.category-products-grid.hover-effect .item:hover {
+		margin-left:0;
+		margin-right:0;
+		padding-left:3%;
+		padding-right:3%;
+		z-index:10;
+		box-shadow:0 2px 10px rgba(0,0,0,0.2);
+		border-color:transparent;
+	}
+
+
+/* Override default Itemgrid
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/* Decrease items width by 4% */
+
+/* Item grid: 1 column */
+.products-grid-style1.itemgrid-1col .item { width:94%; }
+
+/* Item grid: 2 columns */
+.products-grid-style1.itemgrid-2col .item { width:44%; }
+.products-grid-style1.itemgrid-2col .item:nth-child(2n+1) { clear:left; }
+
+/* Item grid: 3 columns */
+.products-grid-style1.itemgrid-3col .item { width:27.3333%; }
+.products-grid-style1.itemgrid-3col .item:nth-child(3n+1) { clear:left; }
+
+/* Item grid: 4 columns */
+.products-grid-style1.itemgrid-4col .item { width:19%; }
+.products-grid-style1.itemgrid-4col .item:nth-child(4n+1) { clear:left; }
+
+/* Item grid: 5 columns */
+.products-grid-style1.itemgrid-5col .item { width:14%; }
+.products-grid-style1.itemgrid-5col .item:nth-child(5n+1) { clear:left; }
+
+/* Item grid: 6 columns */
+.products-grid-style1.itemgrid-6col .item { width:10.6666%; }
+.products-grid-style1.itemgrid-6col .item:nth-child(6n+1) { clear:left; }
+
+/* Item grid: 7 columns */
+.products-grid-style1.itemgrid-7col .item { width:8.2857%; }
+.products-grid-style1.itemgrid-7col .item:nth-child(7n+1) { clear:left; }
+
+/* Item grid: 8 columns */
+.products-grid-style1.itemgrid-8col .item { width:6.5%; }
+.products-grid-style1.itemgrid-8col .item:nth-child(8n+1) { clear:left; }
+
+
+
+
+
+/* Itemslider %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* Boxed style slider (like style 1 in products grid)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.boxed-slider .itemslider { margin: 10px 0; padding: 0 5px; background-color: #eee; }
+.boxed-slider .viewport { padding: 10px 0; }
+.boxed-slider .slides > .item { padding: 0; }
+.boxed-slider .slides .item-inner { padding: 10px; margin-left: 5px; margin-right: 5px; background-color: #fff; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); }
+
+/* Buttons aligned at the bottom */
+.boxed-slider .slides > .item { position: static; }
+.boxed-slider .slides .item-inner { padding: 10px 10px 55px 10px; }
+.boxed-slider .slides .item-inner .actions { position: absolute; bottom: 10px; }
+.boxed-slider .direction-nav { top: -50px; }
+
+
+
+
+
+/* Owl Carousel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* Generic arrows 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+.slider-arrows2 .owl-controls .owl-buttons .owl-prev { left:1.5%; }
+.slider-arrows2 .owl-controls .owl-buttons .owl-next { right:1.5%; }

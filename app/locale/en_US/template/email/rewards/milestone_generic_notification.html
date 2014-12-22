@@ -1,0 +1,66 @@
+<!--@subject You've reached a {{var milestone_description}} at {{var store_name}}!@-->
+<!--
+<pre>
+[[ help ]]
+    logo : {{var logo_url}}
+    logo alt : {{var logo_alt}}
+    store url : {{store url}}
+    customer_name : {{var customer_name}}
+    customer_firstname : {{var customer_firstname}}
+    customer_email : {{var customer_email}}
+    customer_points_balance : {{var customer_points_balance}}
+    customer_pending_points : {{var customer_pending_points}}
+    customer_has_pending_points : {{var customer_has_pending_points}}
+    customer_affiliate_url : {{var customer_affiliate_url}}
+    customer_referral_code : {{var customer_referral_code}}
+    customer_referral_shortcode : {{var customer_referral_shortcode}}
+
+    store_name : {{var store_name}}
+
+    milestone_description: {{var milestone_description}}
+    milestone_message: {{var milestone_message}}
+
+    milestone_target : {{var milestone_target}}
+    milestone_details_condition : {{var milestone_details_condition}}
+    milestone_details_action : {{var milestone_details_action}}
+    milestone_details_points_amount : {{var milestone_details_points_amount}}
+    milestone_details_points_string : {{var milestone_details_points_string}}
+    milestone_details_customer_group_id : {{var milestone_details_customer_group_id}}
+</pre>
+-->
+<style type="text/css">
+    body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+</style>
+
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <a href="{{store url=''}}">
+                               <img src="{{var logo_url}}" alt="{{var logo_alt}}"
+                                 style="margin-bottom:10px;" border="0"/>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <p>{{var customer_firstname}},</p>
+
+
+                            <p>Congratulations for reaching a milestone at <a href="{{store url=''}}">{{var store_name}}</a>!
+                            <br/>{{var milestone_message}}</p>
+
+                            <br/>
+                            <p>Happy Shopping!</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

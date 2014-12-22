@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+		<reference name="head">
+			<action method="addCss" ifconfig="sociallogin/general/enable"><stylesheet>css/sociallogin.css</stylesheet></action>
+			<action method="addJs" ifconfig="sociallogin/general/enable"><script>dh/lightbox.js</script></action>
+			<action method="addJs" ifconfig="sociallogin/general/enable"><script>dh/sociallogin.js</script></action>
+		</reference>
+    </default>
+    <customer_logged_out>
+        <reference name="top.links">
+        	<action method="removeLinkByUrl" ifconfig="sociallogin/general/enable"><url helper="customer/getLoginUrl"/></action>
+            <action method="addLink" translate="label title" module="sociallogin" ifconfig="sociallogin/general/enable"><label>Log In</label><url>#</url><title>Log In</title><prepare/><urlParams/><position>100</position><liParams/><aParams>onclick="return socialloginModal('dhsc_modal')"</aParams></action>
+        </reference>
+        <reference name="before_body_end">
+        	<block type="sociallogin/modal" name="sociallogin_modal" template="sociallogin/modal.phtml"/>
+        </reference>
+    </customer_logged_out>
+    <customer_account_login>
+    	<reference name="customer_form_login">
+            <block type="core/text_list" name="form.additional.info">
+                <block type="sociallogin/button" name="sociallogin_button"  template="sociallogin/button.phtml"/>
+            </block>
+        </reference>
+   		 <!--<reference name="form.additional.info">
+   		 	
+   		 </reference>
+   		-->
+   	</customer_account_login>
+   	
+   	<checkout_onepage_index>
+   		 <reference name="checkout.onepage.login">
+           <block type="core/text_list" name="form.additional.info">
+               <block type="sociallogin/button" name="sociallogin_button"  template="sociallogin/button.phtml"/>
+           </block>
+       </reference>
+   	</checkout_onepage_index>
+</layout>

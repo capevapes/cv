@@ -1,0 +1,62 @@
+<?php
+/**
+ * NeoTheme Austrlia (Neo Industries Pty Ltd)
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to Neo Industries Pty LTD Non-Distributable Software Modification License (NDSML)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.neotheme.com.au/legal/licenses/NDSM.html
+ * If the license is not included with the package or for any other reason, 
+ * you did not receive your licence please send an email to 
+ * license@neotheme.com.au so we can send you a copy immediately.
+ *
+ * This software comes with no warrenty of any kind. By Using this software, the user agrees to hold 
+ * Neo Industries Pty Ltd harmless of any damage it may cause.
+ *
+ * @category    modules
+ * @module      NeoTheme_ImageRotator
+ * @copyright   Copyright (c) 2011 Neo Industries Pty Ltd (http://www.neotheme.com.au)
+ * @license     http://www.neotheme.com.au/  Non-Distributable Software Modification License(NDSML 1.0)
+ */
+/**
+ * @see NeoTheme_Blog_Block_Post
+ */
+?>
+<?php if (Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+<?php if($this->getTitle()): ?>
+    <h2><?php echo $this->getTitle() ?></h2>
+<?php endif; ?>
+<form action="<?php echo $this->getSaveUrl() ?>" method="post" id="form-comment-validate">
+    <input type="hidden" name="post_id" value="<?php echo $this->getPost()->getId()?>" />
+    <input type="hidden" name="username" value="" />
+    <input type="hidden" name="return_url" value="<?php echo urlencode(Mage::getUrl('*/*/*', array('_current' => true))) ?>" />
+    <div class="fieldset">
+        <h2 class="legend"><?php echo $this->__('Add new comment') ?></h2>
+        <ul class="form-list">
+            <li class="wide">
+                <div class="field">
+                    <label for="post_comment_user" class="required">Name:<em>*</em></label>
+                    <div class="input-box"><input id="post_comment_user" type="text" name="name" value="<?php echo $this->getCurrentUserName();?>" class="input-text required-entry" /></div>
+                </div>
+            </li>
+            <li class="wide">
+            	<label for="post_comment" class="required">Comment:<em>*</em></label>
+                <div class="input-box"><textarea id="post_comment" name="comment" class="input-text required-entry" ></textarea></div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+    	<p class="required">* Required Fields</p>
+    	<button type="submit" title="<?php echo $this->__('Post Comment') ?>" class="button"><span><span><?php echo $this->__('Post Comment') ?></span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var dataForm = new VarienForm('form-comment-validate', false);
+//]]>
+</script>
+<?php else: ?>
+    <p class="notice-msg"><?php echo $this->__('Please Log in to Comment') ?></p>
+<?php endif; ?>

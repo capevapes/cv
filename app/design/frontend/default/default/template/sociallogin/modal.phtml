@@ -1,0 +1,247 @@
+<?php 
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    DH
+ * @package     DH_Sociallogin
+ * @copyright   Copyright (c) 2013 DHZoanku
+ * @license     License GNU General Public License version 2 or later; 
+ */
+?>
+<?php 
+if (Mage::getStoreConfig('sociallogin/general/enable')){
+?>
+<div class="dhsc-modal" id="dhsc_modal" style="display:none;position: fixed;z-index: 99999;">
+	<div class="dhsc-modal-body">
+		<div class="dhsc-fieldset">
+		    <fieldset>
+		    	<div class="dhsc-form">
+		    		<div id="dhsc_login">
+				    	<form id="dhsc_login_form" action="" method="post">
+					    	<h3><?php echo Mage::helper('sociallogin')->__('Login') ?></h3>
+					    	<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+					    	<div id="dhsc_login_error" class="dhsc-error"></div>
+					        <p><?php echo Mage::helper('sociallogin')->__('Please log in below:') ?></p>
+					        <ul class="form-list dhsc-fields">
+					            <li>
+					                <label for="login-email" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Email Address') ?></label>
+					                <div class="input-box">
+					                    <input type="text" class="input-text required-entry validate-email" id="login-email" name="login[username]" />
+					                </div>
+					            </li>
+					            <li>
+					                <label for="login-password" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Password') ?></label>
+					                <div class="input-box">
+					                    <input type="password" class="input-text required-entry" id="login-password" name="login[password]" />
+					                </div>
+					            </li>
+					            <li>
+					            	<div class="actions">
+					            		<button type="button" class="button dhsc-fbutton" onclick="dhscLogin()"><span><span><?php echo Mage::helper('sociallogin')->__('Login') ?></span></span></button>						          
+					            		<img id="dhsc_login_loading" class="dhsc-loadding" style="display:none" src="<?php echo $this->getSkinUrl('images/sociallogin/social-loader.gif')?>">
+					            		<a id="social_forgot" onclick="doSendEmail()" href="javascript:void(0)"><?php echo Mage::helper('sociallogin')->__('Forgot Your Password?')?></a>
+					            	</div>
+					            </li>
+					            <li>
+					            	<?php echo Mage::helper('sociallogin')->__("Don't have an account?")?> <a onclick="doCreateAccount()" href="javascript:void(0)"><?php echo Mage::helper('sociallogin')->__('Create Account')?></a>
+					            </li>
+					        </ul>
+				        </form>
+		        	</div>
+		        	<div id="dhsc_forgot" style="display:none">
+		        		<form id="dhsc_forgot_form" action="" method="post">
+		        			<h3><?php echo Mage::helper('sociallogin')->__('Forgot Your Password?') ?></h3>
+		        			<p><?php echo Mage::helper('sociallogin')->__('Please enter your email address below.')?></p>
+		        			<div id="dhsc_forgot_error" class="dhsc-error"></div>
+		        			<ul class="form-list dhsc-fields">
+		        				<li>
+					                <label class="required" for="dhsc_forgot_email_address"><em>*</em><?php echo Mage::helper('sociallogin')->__('Email Address') ?></label>
+					                <div class="input-box">
+					                    <input type="text" value="" class="input-text required-entry validate-email" id="dhsc_forgot_email_address" name="email">
+					                </div>
+					            </li>
+					            <li>
+					            	<div class="actions">
+					            		<button type="button" class="button dhsc-fbutton" onclick="dhscForgot();"><span><span><?php echo Mage::helper('sociallogin')->__('Send Email') ?></span></span></button>
+					            		<img id="dhsc_forgot_loading" class="dhsc-loadding" style="display:none" src="<?php echo $this->getSkinUrl('images/sociallogin/social-loader.gif')?>">
+					            	</div>
+					            </li>
+		        			</ul>
+		        		</form>
+		        	</div>
+		        	<div id="dhsc_create" style="display:none">
+		        		<form id="dhsc_create_form" action="" method="post">
+		        			<h3><?php echo Mage::helper('sociallogin')->__('Create an Account') ?></h3>
+				    		<div id="dhsc_create_error" class="dhsc-error"></div>
+				    		<ul class="form-list dhsc-fields">
+					            <li>
+					                <label for="firstname" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('First Name') ?></label>
+					                <div class="input-box">
+					                    <input type="text" class="input-text required-entry" id="firstname" name="firstname"/>
+					                </div>
+					            </li>
+					            <li>
+					                <label for="lastname" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Last Name') ?></label>
+					                <div class="input-box">
+					                    <input type="text" class="input-text required-entry" id="lastname" name="lastname" />
+					                </div>
+					            </li>
+					            <li>
+					                <label for="email-address" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Email Address') ?></label>
+					                <div class="input-box">
+					                    <input type="text" class="input-text validate-email required-entry" id="email-address" name="email" />
+					                </div>
+					            </li>
+					            <li>
+					                <label for="password" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Password') ?></label>
+					                <div class="input-box">
+					                    <input type="password" class="input-text required-entry validate-password" id="password" name="password" />
+					                </div>
+					            </li>
+					            <li>
+					                <label for="confirmation" class="required"><em>*</em><?php echo Mage::helper('sociallogin')->__('Confirm Password') ?></label>
+					                <div class="input-box">
+					                    <input type="password" class="input-text required-entry validate-cpassword" id="confirmation" name="confirmation" />
+					                </div>
+					            </li>
+					            <li>
+					            	<button type="button"  onclick="dhscCreate();" class="button dhsc-fbutton"><span><span><?php echo Mage::helper('sociallogin')->__('Sign Up')?></span></span></button>
+					            	<img id="dhsc_create_loading" class="dhsc-loadding" style="display:none" src="<?php echo $this->getSkinUrl('images/sociallogin/social-loader.gif')?>">
+					            </li>
+					            <li>
+					            	<?php echo Mage::helper('sociallogin')->__("Already have an account?")?> <a onclick="doLogin()" href="javascript:void(0)"><?php echo Mage::helper('sociallogin')->__('Login')?></a>
+					            </li>
+				        	</ul>
+		        		</form>
+		        	</div>
+		        	<div class="dhsc-or"></div>
+		        </div>
+		        <div class="dhsc-form-button">
+		        	<h3>
+		        		<?php echo Mage::helper('sociallogin')->__('Login With') ?>
+		        	</h3>
+		        	<div class="dhsc-buttons">
+		        		<?php if (Mage::helper('sociallogin')->useFaceBook()){?>
+		        		<button type="button" class="dhsc-button fb" onclick="setLocation('<?php echo $this->getUrl('sociallogin/account/fblogin');?>')"><?php echo Mage::helper('sociallogin')->__('Facebook') ?></button>
+						<?php } ?>
+						<?php if (Mage::helper('sociallogin')->useGoogle()){?>
+						<button type="button" class="dhsc-button go" onclick="setLocation('<?php echo $this->getUrl('sociallogin/account/gologin');?>')"><?php echo Mage::helper('sociallogin')->__('Google') ?></button>
+						<?php } ?>
+						<?php if (Mage::helper('sociallogin')->useTwitter()){?>
+						<button type="button" class="dhsc-button tw" onclick="setLocation('<?php echo $this->getUrl('sociallogin/account/twlogin');?>')"><?php echo Mage::helper('sociallogin')->__('Twitter') ?></button>
+						<?php } ?>
+						<?php if (Mage::helper('sociallogin')->useYahoo()){?>
+						<button type="button" class="dhsc-button ya" onclick="setLocation('<?php echo $this->getUrl('sociallogin/account/yalogin');?>')"><?php echo Mage::helper('sociallogin')->__('Yahoo') ?></button>
+		        		<?php } ?>
+		        	</div>
+		        </div>
+		    </fieldset>
+		</div>
+		<a class="dhsc-close" onclick="javascript:socialLoginClose()"></a>
+	</div>
+</div>
+<div id="bg_fade" style="visibility: hidden; opacity: 0;"></div>
+<script type="text/javascript">
+function dhscLogin(){
+	var loginForm = $('dhsc_login_form');
+	var loginError = $('dhsc_login_error');
+	var loginLoading = $('dhsc_login_loading');
+	var loginFormvalidator = new Validation(loginForm);
+	if(loginFormvalidator.validate()){
+		var urlLogin = '<?php echo Mage::getUrl('sociallogin/account/loginPost') ?>';
+		loginLoading.show();
+		new Ajax.Request(urlLogin,{
+			 parameters: loginForm.serialize(true),
+             method: 'POST',
+             onComplete: function(transport) {
+				if(transport.status == 200) {
+					var result = transport.responseText.evalJSON();
+					
+                    if(!result.success) {
+                    	loginError.update(result.error);
+                    	loginLoading.hide();
+                    }
+                    else{
+                       	setLocation(result.success);
+                    }
+				}
+			}
+		})
+	}else{
+		return;
+	}
+}
+function dhscCreate(){
+	var createBox = $('dhsc_create');
+	var createError = $('dhsc_create_form');
+	var createForm = $('dhsc_create_form');
+	var createLoading = $('dhsc_create_loading');
+	var createFormvalidator = new Validation(createForm);
+	if(createFormvalidator.validate()){
+		createLoading.show();
+		var urlCreate = '<?php echo Mage::getUrl('sociallogin/account/createPost') ?>';
+		new Ajax.Request(urlCreate, {
+            parameters: createForm.serialize(true),
+            method: 'POST',
+            onComplete: function(transport) {
+                if(transport.status == 200) {
+                    var result = transport.responseText.evalJSON();
+                    if(!result.success) {
+                    	createError.update(result.error);
+                    	createLoading.hide();
+                    }
+                    else{
+                        // Successfully logged in user, now reload page
+                       	setLocation(result.success);
+                    }
+                }
+            }
+        })
+	}else{
+		return;
+	}
+}
+function dhscForgot(){
+	var forgotBox = $('dhsc_forgot');
+	var forgotError = $('dhsc_forgot_error');
+	var forgotForm = $('dhsc_forgot_form');
+	var forgotLoading = $('dhsc_forgot_loading');
+	var forgotUrl = '<?php echo Mage::getUrl('sociallogin/account/forgotPasswordPost') ?>';
+	var email = $('dhsc_forgot_email_address').getValue();
+	var forgotSussec = $('dhsc_login_error');
+	var forgotFormvalidator = new Validation(forgotForm);
+	if(forgotFormvalidator.validate()){
+		forgotLoading.show();
+		var parameters = { email: email };
+		new Ajax.Request(forgotUrl, {
+             method: 'POST',
+             parameters: parameters,
+             onSuccess: function(transport)  {
+                 var result = transport.responseText.evalJSON();
+
+                 if(!result.success)  {
+                	 forgotError.update(result.error);
+                	 forgotLoading.hide();
+                 }
+                 else{
+                	 forgotBox.hide();
+                	 forgotSussec.update(result.success);
+                 }
+             }
+         });
+	}else{
+		return;
+	}
+}
+</script>
+<?php } ?>

@@ -1,0 +1,18 @@
+2014-10-31T11:56:24+00:00 DEBUG (7): Array
+(
+    [0] => New Stock Alert for product #245 was saved.
+    [__pid] => 3509
+)
+
+2014-11-01T04:00:02+00:00 DEBUG (7): Array
+(
+    [0] => MageMonkey Autoresponder BackToStock Cleanup - started
+    [__pid] => 8536
+)
+
+2014-11-01T04:00:02+00:00 DEBUG (7): Array
+(
+    [0] => MageMonkey Autoresponder BackToStock Cleanup - finished
+    [__pid] => 8536
+)
+

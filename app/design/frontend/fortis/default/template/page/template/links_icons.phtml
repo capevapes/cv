@@ -1,0 +1,83 @@
+<?php
+/**
+ * @see Mage_Page_Block_Template_Links
+ */
+?>    
+<?php $_links = $this->getLinks(); ?>
+<?php if(count($_links)>0): ?>
+<?php $theme = $this->helper('fortis'); ?>
+<ul class="links"<?php if($this->getName()): ?> id="<?php echo $this->getName() ?>"<?php endif;?>>
+    <?php foreach($_links as $_link): ?>
+        <?php if ($_link instanceof Mage_Core_Block_Abstract):?>
+            <?php echo $_link->toHtml() ?>
+        <?php else: ?>
+
+            <?php //If no label, omit this link
+                if (!$_link->getLabel())
+                {
+                    continue;
+                }
+            ?>
+
+            <?php
+            //start: common code for links_icons.phtml and linksblock_icons.phtml
+            
+                //Item's CSS classes
+                $itemClasses = '';
+                if ($_link->getIsFirst())
+                {
+                    $itemClasses .= ' first';
+                }
+                if ($_link->getIsLast())
+                {
+                    $itemClasses .= ' last';
+                }
+
+                //Icon's basic CSS classes
+                $iconClasses = 'icon force-no-bg-color';
+
+                //Icon color suffix
+                $colorString = $theme->getCfgDesign('header/toplinks_icon_color');
+                $iconSuffix = ($colorString == 'b') ? '' : '-'.$colorString;
+
+                //Important: this parameter stores name of the icon
+                $iconName = $_link->getBeforeText();
+                if (!$iconName)
+                {
+                    $iconName = 'userlinkdefault'; //If icon name not specified use icon placeholder for non-standard links
+                }
+
+                //Important: this parameter stores a path (relative to "media" directory) to the alternative custom icon.
+                //If it is set, then the custom icon will replace the standard icon.
+                $altIconPath = $_link->getAfterText();
+
+            //end: common code for links_icons.phtml and linksblock_icons.phtml
+            ?>
+
+            <?php
+                //Below "li" code is common for links_icons.phtml and linksblock_icons.phtml
+                //except getUrl() method which in linksblock_icons.phtml has to be replaced with getLinkUrl()
+            ?>
+            <li <?php if($itemClasses): ?>class="<?php echo $itemClasses; ?>"<?php endif;?> <?php echo $_link->getLiParams(); ?>>
+
+                <a href="<?php echo $_link->getUrl(); ?>"     title="<?php echo $_link->getTitle(); ?>" <?php echo $_link->getAParams(); ?>
+                    class="feature-icon-hover">
+
+                    <?php if(!$altIconPath): //If no alternative icon render standard icon ?>
+                        <span class="<?php echo $iconClasses; ?> i-<?php echo $iconName . $iconSuffix; ?>"></span>
+                    <?php else: ?>
+                        <span class="<?php echo $iconClasses; ?>">
+                            <img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . $altIconPath; ?>" alt="Icon" />
+                        </span>
+                    <?php endif; ?>
+                        <span class="label"><?php echo $_link->getLabel(); ?></span>
+
+                </a>
+
+            </li>
+            <?php //end: common code for links_icons.phtml and linksblock_icons.phtml ?>
+            
+        <?php endif;?>
+    <?php endforeach; ?>
+</ul>
+<?php endif; ?>

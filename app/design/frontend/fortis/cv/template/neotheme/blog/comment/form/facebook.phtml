@@ -1,0 +1,60 @@
+<?php
+/**
+ * NeoTheme Austrlia (Neo Industries Pty Ltd)
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to Neo Industries Pty LTD Non-Distributable Software Modification License (NDSML)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.neotheme.com.au/legal/licenses/NDSM.html
+ * If the license is not included with the package or for any other reason, 
+ * you did not receive your licence please send an email to 
+ * license@neotheme.com.au so we can send you a copy immediately.
+ *
+ * This software comes with no warrenty of any kind. By Using this software, the user agrees to hold 
+ * Neo Industries Pty Ltd harmless of any damage it may cause.
+ *
+ * @category    modules
+ * @module      NeoTheme_ImageRotator
+ * @copyright   Copyright (c) 2011 Neo Industries Pty Ltd (http://www.neotheme.com.au)
+ * @license     http://www.neotheme.com.au/  Non-Distributable Software Modification License(NDSML 1.0)
+ */
+/**
+ * @see NeoTheme_Blog_Block_Post
+ */
+
+
+
+
+
+
+
+
+
+$locale = Mage::app()->getLocale()->getLocaleCode();
+
+?>
+<?php if($this->getTitle()): ?>
+    <h2><?php echo $this->getTitle() ?></h2>
+<?php endif; ?>
+<div class="fb-comments" data-href="http://www.capevapes.com/blog/baker-white-test-results/" data-width="100%" data-num-posts="<?php echo $this->getCommentsCount();?>"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  //TODO: switch locale with magneto var_dump($locale);
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1<strong>&status=0</strong>";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="fb-root"></div>
+<!-- 
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=350782671716758&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> -->

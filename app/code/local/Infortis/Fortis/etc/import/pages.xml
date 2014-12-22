@@ -1,0 +1,733 @@
+<root>
+   <pages>
+      <cms_block>
+         <title>FORTIS Home Page Demo 1</title>
+         <identifier>fortis-home-page</identifier>
+         <content><![CDATA[<br/>
+<br/>
+<br/>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-char rounded">1</span>
+		<h2>Unlimited Colors</h2>
+		<p>Fully customizable design. You have never seen so many options! Change colors of dozens of elements, apply textures, upload background images...</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-char rounded">2</span>
+		<h2>Responsive Design</h2>
+		<p>12-column grid system. Ultimo can be displayed on any screen. It is based on fluid grid system. If screen is resized, layout will be automatically adjusted...</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-char rounded">3</span>
+		<h2>Mega Menu</h2>
+		<p>Two styles: wide mega menu or classic drop-down menu. You can add any custom content (images, text, HTML) to any category in the catalog...</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+<br/>
+<br/>
+
+
+
+<br/>
+<br/>
+{{block type="fortis/product_list_featured" template="catalog/product/list_featured_slider.phtml" category_id="6" product_count="20" breakpoints="[0, 1], [480, 2], [640, 3], [960, 4]" img_width="274" timeout="5000" pagination="1" centered="1" hide_button="1" block_name="Recommended Products"}}
+
+{{block type="catalog/product_new" template="catalog/product/new.phtml" products_count="8" breakpoints="[0, 1], [320, 2], [480, 3], [768, 4], [960, 5], [1280, 6]" move="1" pagination="1" centered="1" hide_button="1" block_name="New Products in Stock"}}
+
+
+
+
+<span class="section-title">Sample Custom Banner</span>
+<br />
+	<a href="{{store direct_url='typography#banners'}}" title="Click to see more exemples of banners">
+		<img src="{{media url="wysiwyg/infortis/fortis/custom/banners/s2.jpg"}}" alt="Sample banner" class="fade-on-hover" />
+	</a>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+{{block type="brands/brands" template="infortis/brands/brand_slider.phtml" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" timeout="5000" move="1" pagination="1" block_name="Our Brands"}}
+]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Fortis - Fully Responsive Magento Theme | Download</title>
+         <identifier>fortis-responsive-magento-theme</identifier>
+         <content><![CDATA[Add custom content in: CMS > Pages]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Home Page Demo 2</title>
+         <identifier>fortis-home-page2</identifier>
+         <content><![CDATA[<br/>
+<br/>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large centered">
+		<span class="icon large circle">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/large/paintbrush.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Unlimited Colors</h3>
+		<h6 class="below-heading">Customizable design</h6>
+		<p>You have never seen so many options! Change colors of dozens of elements, apply textures, upload background images...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large centered">
+		<span class="icon large circle">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/large/responsive.png'}}" alt="Responsive Layout" />
+		</span>
+		<h3>Responsive Layout</h3>
+		<h6 class="below-heading">12-column grid</h6>
+		<p>Fortis can be displayed on any screen. It is based on fluid grid system. If screen is resized, layout will be automatically adjusted...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large centered">
+		<span class="icon large circle">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/large/menu.png'}}" alt="Mega Menu" />
+		</span>
+		<h3>Mega Menu</h3>
+		<h6 class="below-heading">Customizable drop-down menu</h6>
+		<p>Two styles: wide mega menu or classic drop-down menu. You can add any custom content (images, text, HTML) to any category in the catalog...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+<br />
+<br/>
+
+
+
+
+
+{{block type="fortis/product_list_featured" template="catalog/product/list_featured_slider.phtml" category_id="6" product_count="20" breakpoints="[0, 1], [320, 2], [480, 3], [768, 4], [960, 5]" size="size-s" timeout="5000" pagination="1" centered="1" hide_button="1" block_name="Our Featured Products"}}
+<br/>
+
+{{block type="brands/brands" template="infortis/brands/brand_slider.phtml" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" timeout="3000" move="1" pagination="1" block_name="Our Brands"}}
+<br/>
+
+
+
+
+
+<span class="section-title">Product Grid</span>
+<br />
+{{block type='catalog/product_list' category_id='4' grid_column_count='4' hide_toolbar='1' template='catalog/product/list.phtml'}}
+<br/>
+<br/>
+
+
+
+
+
+	<a href="{{store direct_url='typography#banners'}}" title="Click to see more exemples of banners">
+		<img src="{{media url="wysiwyg/infortis/fortis/custom/banners/s1.jpg"}}" alt="Sample banner" class="fade-on-hover" />
+	</a>
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="grid12-3">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-twitter-w"></span>
+		<h6 class="above-heading">Secondary Heading</h6>
+		<h4>Sample Heading</h4>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit rory solare de equis.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-3">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-vimeo-w"></span>
+		<h6 class="above-heading">Secondary Heading</h6>
+		<h4>Feature Title</h4>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-3 hide-below-768">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-wordpress-w"></span>
+		<h6 class="above-heading">Secondary Heading</h6>
+		<h4>Sample Title</h4>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-3 hide-below-768">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-envato-w"></span>
+		<h6 class="above-heading">Secondary Heading</h6>
+		<h4>Feature Title</h4>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis.</p>
+		<a href="http://themeforest.net/item/fortis-flexible-magento-theme/1744309?ref=infortis" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+<br/>
+<br/>
+]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Typography | Fortis - Flexible Magento Theme</title>
+         <identifier>typography</identifier>
+         <content><![CDATA[<div class="grid12-6">
+
+<span class="section-title">Sample of basic typography</span>
+<br/>
+
+<h1>H1 Heading</h1>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+<div style="margin-top: 40px;"></div>
+<h2>H2 Heading</h2>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+<div style="margin-top: 40px;"></div>
+<h3>H3 Heading</h3>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+<div style="margin-top: 40px;"></div>
+<h4>H4 Heading</h4>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+<div style="margin-top: 40px;"></div>
+<h5>H5 Heading</h5>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+<div style="margin-top: 40px;"></div>
+<h6>H6 Heading</h6>
+<p>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.</p>
+
+</div>
+<div class="grid12-6">
+
+	<span class="section-title">Paragraphs with icons</span>
+	<br/>
+
+	<div class="feature feature-icon-hover indent large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/star.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Sample Heading</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque solare de equis. Nullam ornare enim nec justo biben lobortis. In eget metus. Lorem ipsum dolor sit consectetur...</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+	<br/>
+	<div class="feature feature-icon-hover indent large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/world.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Feature Title</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis. Nullam ornare enim nec justo bibendum lobortis. In eget metus. Lorem ipsum dolor sit consectetur, adipiscing elit</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+	<br/>
+	<div class="feature feature-icon-hover indent large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/star.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Sample Title</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis. Nullam ornare enim nec justo bibendum lobortis. In eget metus. Lorem ipsum dolor sit consectetur, adipiscing elit</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+	<br/>
+	<div class="feature feature-icon-hover indent large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/world.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Feature Title</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis. Nullam ornare enim nec justo bibendum lobortis. In eget metus. Lorem ipsum dolor sit consectetur, adipiscing elit</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+
+
+
+<br/>
+<br/>
+<span class="section-title">Ordered  and unordered lists</span>
+<br/>
+
+<div class="grid12-3">
+
+	<ul class="bullet">
+		<li><a href="#">Sample Link</a></li>
+		<li><a href="#">Lectus vitae ligula tempus</a></li>
+		<li><a href="#">Vitae lorem ipsum dolor sit amet</a></li>
+		<li><a href="#">Sample lectus vitae ligula tempus</a></li>
+		<li><a href="#">Meat Our Best Partners</a></li>
+		<li><a href="#">Our Other Projects</a></li>
+		<li><a href="#">One Click To Join Us</a></li>
+		<li><a href="#">Follow Us On Twitter</a></li>
+		<li><a href="http://infortis-themes.com/">Magento Themes</a></li>
+	</ul>
+
+</div>
+<div class="grid12-3">
+
+	<ul class="disc">
+		<li><a href="#">Sample Link</a></li>
+		<li><a href="#">Lectus vitae ligula tempus</a></li>
+		<li><a href="#">Vitae lorem ipsum dolor sit amet</a></li>
+		<li><a href="#">Sample lectus vitae ligula tempus</a></li>
+		<li><a href="#">Meat Our Best Partners</a></li>
+		<li><a href="#">Our Other Projects</a></li>
+		<li><a href="#">One Click To Join Us</a></li>
+		<li><a href="#">Follow Us On Twitter</a></li>
+		<li><a href="http://infortis-themes.com/">Magento Themes</a></li>
+	</ul>
+
+</div>
+<div class="grid12-3">
+
+	<ol>
+		<li><a href="#">Sample Link</a></li>
+		<li><a href="#">Lectus vitae ligula tempus</a></li>
+		<li><a href="#">Vitae lorem ipsum dolor sit amet</a></li>
+		<li><a href="#">Sample lectus vitae ligula tempus</a></li>
+		<li><a href="#">Meat Our Best Partners</a></li>
+		<li><a href="#">Our Other Projects</a></li>
+		<li><a href="#">One Click To Join Us</a></li>
+		<li><a href="#">Follow Us On Twitter</a></li>
+		<li><a href="http://infortis-themes.com/">Magento Themes</a></li>
+	</ol>
+
+</div>
+<div class="grid12-3">
+
+		<div class="feature indent first">
+			<span class="icon i-char">1</span>
+			<p class="no-margin">Unlimited colors, dozens of customizable elements</p>
+		</div>
+		<div class="feature indent">
+			<span class="icon i-char">2</span>
+			<p class="no-margin ">Customizable responsive layout based on fluid grid</p>
+		</div>
+		<div class="feature indent">
+			<span class="icon i-char">3</span>
+			<p class="no-margin ">50+ placeholders to display custom content</p>
+		</div>
+		<div class="feature indent">
+			<span class="icon i-char">4</span>
+			<p class="no-margin ">Create your custom sub-themes (variants)</p>
+		</div>
+
+</div>
+<div class="clearer"></div>
+
+
+
+<br/>
+<br/>
+<span class="section-title">System messages</span>
+<br/>
+
+<ul class="messages">
+
+	<li class="success-msg">
+		<ul><li><span>These are sample system messages displayed by Magento.</span></li></ul>
+	</li>
+	<li class="error-msg">
+		<ul><li><span>The maximum quantity allowed for purchase is 10.</span></li></ul>
+	</li>
+	<li class="notice-msg">
+		<ul><li><span>Please specify the product's option(s).</span></li></ul>
+	</li>
+	
+</ul>
+
+
+
+<br/>
+<br/>
+<span class="section-title">Paragraphs with icons</span>
+<br/>
+
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/star.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Sample Heading</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque solare de equis. Nullam ornare enim nec justo biben lobortis. In eget metus. Lorem ipsum dolor sit consectetur...</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/world.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Feature Title</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis. Nullam ornare enim nec justo bibendum lobortis. In eget metus. Lorem ipsum dolor sit consectetur, adipiscing elit</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover large">
+		<span class="icon large">
+			<img src="{{media url="wysiwyg/infortis/fortis/icons/large/star.png"}}" />
+		</span>
+		<h6 class="above-heading">The Secondary Heading</h6>
+		<h3>Sample Title</h3>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis. Nullam ornare enim nec justo bibendum lobortis. In eget metus. Lorem ipsum dolor sit consectetur, adipiscing elit</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+
+
+
+<br />
+<br />
+<h3 class="section-title" id="banners">Sample Custom Banners</h3>
+<br />
+
+<p>Here you can see some examples of banners.<br />
+Banners can be placed on any CMS page, and in any CMS block. Each banner is a simple image inside a link.</p>
+<br />
+
+<div class="nested-container hide-below-1280">
+
+    <div class="page-banners grid-container">
+        <div class="grid12-6 banner">
+            <a href="{{store direct_url="#"}}" title="Replace this image with your own" class="fade-on-hover" >
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-6 banner">
+            <a href="{{store direct_url="#"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="nested-container hide-below-960">
+
+    <div class="page-banners grid-container">
+        <div class="grid12-4 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-4 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-4 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="nested-container hide-below-768">
+
+    <div class="page-banners grid-container">
+        <div class="grid12-3 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/11.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-3 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/11.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-6 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/03.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="nested-container">
+
+    <div class="page-banners grid-container">
+        <div class="grid12-3 banner hide-below-768">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-3 banner hide-below-480">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+       	</div>
+        <div class="grid12-3 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+        <div class="grid12-3 banner">
+            <a href="{{store direct_url="about-magento-demo-store"}}" title="Replace this image with your own">
+                <img src="{{media url="wysiwyg/infortis/fortis/custom/banners/01.png"}}" alt="Sample banner" />
+            </a>
+        </div>
+    </div>
+
+</div>]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Home Page Demo 3</title>
+         <identifier>fortis-home-page3</identifier>
+         <content><![CDATA[<br/>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico1.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Unlimited Colors</h3>
+		<p>Fully customizable design. You have never seen so many options! Change colors of dozens of elements, apply textures, upload background images...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico2.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Responsive Layout</h3>
+		<p>12-column grid system. Ultimo can be displayed on any screen. It is based on fluid grid system. If screen is resized, layout will be automatically adjusted...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico3.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Mega Menu</h3>
+		<p>Two styles: wide mega menu or classic drop-down menu. You can add any custom content (images, text, HTML) to any category in the catalog...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+
+
+
+<br/>
+<br/>
+{{block type="fortis/product_list_featured" template="catalog/product/list_featured_slider.phtml" category_id="6" product_count="20" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" size="size-s" timeout="5000" move="1" pagination="1" centered="1" hide_button="1" block_name="Recommended Products"}}
+
+{{block type="catalog/product_new" template="catalog/product/new.phtml" products_count="12" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" size="size-s" pagination="1" centered="1" hide_button="1" block_name="New Products in Stock"}}
+
+
+
+
+
+
+{{block type="brands/brands" template="infortis/brands/brand_slider.phtml" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" timeout="5000" move="1" pagination="1" block_name="Product Brands"}}]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Home Page Demo 4</title>
+         <identifier>fortis-home-page4</identifier>
+         <content><![CDATA[<br/>
+<br/>
+<br/>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-twitter-w rounded"></span>
+		<h2>Sample Heading</h2>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit rory solare de equis et betam eltiam bedit sit tempora.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-vimeo-w rounded"></span>
+		<h2>Feature Title</h2>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis et betam eltiam bedit.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="grid12-4 hide-below-768">
+
+	<div class="feature feature-icon-hover">
+		<span class="icon i-wordpress-w rounded"></span>
+		<h2>Sample Title</h2>
+		<p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque quis betam eltiame nolam.</p>
+		<a href="#" class="go">Read more</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+{{block type="fortis/product_list_featured" template="catalog/product/list_featured_slider.phtml" category_id="6" product_count="20" breakpoints="[0, 1], [320, 2], [480, 3]" size="size-s" img_width="314" timeout="5000" pagination="1" centered="1" hide_button="1" block_name="Our Featured Products"}}
+<br/>
+
+{{block type="brands/brands" template="infortis/brands/brand_slider.phtml" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" timeout="3000" move="1" pagination="1" block_name="Our Brands"}}
+<br/>
+
+
+
+
+<span class="section-title">Product Grid</span>
+<br />
+{{block type='catalog/product_list' category_id='4' grid_column_count='4' hide_toolbar='1' template='catalog/product/list.phtml'}}
+<br/>
+<br/>
+
+
+
+
+
+
+	<a href="{{store direct_url='typography#banners'}}" title="Click to see more exemples of banners">
+		<img src="{{media url="wysiwyg/infortis/fortis/custom/banners/s1.jpg"}}" alt="Sample banner" class="fade-on-hover" />
+	</a>
+<br/>
+<br/>
+<br/>
+<br/>]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+      <cms_block>
+         <title>FORTIS Home Page Demo 5</title>
+         <identifier>fortis-home-page5</identifier>
+         <content><![CDATA[<br/>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico1.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Unlimited Colors</h3>
+		<p>Fully customizable design. You have never seen so many options! Change colors of dozens of elements, apply textures, upload background images...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico2.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Responsive Layout</h3>
+		<p>12-column grid system. Ultimo can be displayed on any screen. It is based on fluid grid system. If screen is resized, layout will be automatically adjusted...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="grid12-4">
+
+	<div class="feature large centered">
+		<span class="icon auto-size no-bg-color">
+			<img src="{{media url='wysiwyg/infortis/fortis/icons/ico3.png'}}" alt="Customizable design" />
+		</span>
+		<h3>Mega Menu</h3>
+		<p>Two styles: wide mega menu or classic drop-down menu. You can add any custom content (images, text, HTML) to any category in the catalog...</p>
+		<a href="{{store url='ultimo-responsive-magento-theme'}}" class="go">See all features</a>
+	</div>
+
+</div>
+<div class="clearer"></div>
+
+
+
+<br/>
+<br/>
+{{block type="fortis/product_list_featured" template="catalog/product/list_featured_slider.phtml" category_id="6" product_count="20" breakpoints="[0, 1], [320, 2], [480, 3], [768, 4], [960, 5]" timeout="5000" pagination="1" centered="1" hide_button="1" block_name="Recommended Products"}}
+
+{{block type="catalog/product_new" template="catalog/product/new.phtml" products_count="8" breakpoints="[0, 1], [320, 2], [480, 3], [768, 4], [960, 5]" move="1" pagination="1" centered="1" hide_button="1" block_name="New Products in Stock"}}
+<br/>
+<br/>
+
+
+
+
+{{block type="brands/brands" template="infortis/brands/brand_slider.phtml" breakpoints="[0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5]" timeout="5000" move="1" pagination="1" block_name="Our Brands"}}
+]]></content>
+         <is_active>1</is_active>
+         <stores><item>0</item></stores>
+      </cms_block>
+   </pages>
+</root>

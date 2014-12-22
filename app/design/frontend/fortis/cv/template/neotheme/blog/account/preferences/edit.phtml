@@ -1,0 +1,77 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Edit customer address template
+ *
+ * @see Mage_Customer_Block_Address_Edit
+ */
+?>
+<?php if($this->getTitle()): ?>
+<div class="page-title">
+    <h1><?php echo $this->__($this->getTitle()); ?></h1>
+</div>
+<?php endif; ?>
+<form action="<?php echo $this->getSaveUrl() ?>" method="post" id="form-validate">
+    <input type="hidden" name="success_url" value="<?php echo $this->getSuccessUrl() ?>" />
+    <input type="hidden" name="error_url" value="<?php echo $this->getErrorUrl() ?>" />
+
+    <div class="fieldset">
+    <?php echo $this->getBlockHtml('formkey')?>
+        <h2 class="legend"><?php echo $this->__('Edit Category Preferences') ?></h2>
+        <ul class="form-list">
+        <li class="fields">
+            <div class="field">
+                <label for="blog_category_ids" class="required"><em>*</em><?php echo $this->__('My Blog Categories') ?></label>
+                <div class="input-box">
+                    <?php $selectedCategories = $this->getSelectedCategories(); ?>
+                    <select id="blog_category_ids" class="validate-select"  multiple="true" name="default_blog_category_ids[]">
+                        <?php foreach($this->getCategories()  as $category):?>
+                            <option value="<?php echo $category->getId() ;?>" <?php echo (in_array($category->getId(), $selectedCategories))? "selected=\"selected\"" : "";?> ><?php echo $category->getName() ;?></option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+            </div>
+        </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+    	<button type="submit" title="<?php echo $this->__('Save Preferences') ?>" class="button"><span><span><?php echo $this->__('Save') ?></span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var dataForm = new VarienForm('form-validate', true);
+//]]>
+</script>
+
+
+
+
+
+
+
