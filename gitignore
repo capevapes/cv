@@ -1,0 +1,12 @@
+/var/log/*
+/var/report/*
+/var/locks/*
+/var/session/*
+/var/cache/*
+app/etc/local.xml
+media/catalog/product/cache/*
+media/wysiwyg/.thumbs
+.vagrant
+downloader/.cache
+downloader/*.cfg
+var/package/tmp
