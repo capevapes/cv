@@ -88417,3 +88417,1546 @@ CapeVapes.com
     [__pid] => 16369
 )
 
+2015-01-09T06:00:01+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:01+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:01+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:01+00:00 DEBUG (7): Array
+(
+    [0] => wootenkb@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => wootenkb@gmail.com
+    [2] => Array
+        (
+            [FNAME] => Brad
+            [LNAME] => Wooten
+            [DOB] => 04/22
+            [BILLING] => Array
+                (
+                    [addr1] => 129 Saturn Lane
+                    [addr2] => 
+                    [city] => Greer
+                    [state] => South Carolina
+                    [zip] => 29651
+                    [country] => US
+                )
+
+            [TELEPHONE] => 8642368183
+            [SHIPPING] => Array
+                (
+                    [addr1] => 129 Saturn Lane
+                    [addr2] => 
+                    [city] => Greer
+                    [state] => South Carolina
+                    [zip] => 29651
+                    [country] => US
+                )
+
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [DOP] => 11/13/2014
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => wootenkb@gmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 9988410 Points
+            [PTSEXP] => 11/13/2015
+            [PTSEARN] => 11/13/2014
+            [PTSSPENT] => 11/13/2014
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => natalie@wootencomputer.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => c619d99e50
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => natalie@wootencomputer.com
+    [2] => Array
+        (
+            [FNAME] => Natalie
+            [LNAME] => Wooten
+            [DOB] => 11/12
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => natalie@wootencomputer.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 10000000 Points
+            [PTSEXP] => 11/5/2015
+            [PTSEARN] => 11/05/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => c619d99e50
+    [1] => natalie@wootencomputer.com
+    [2] => Array
+        (
+            [FNAME] => Natalie
+            [LNAME] => Wooten
+            [DOB] => 11/12
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => natalie@wootencomputer.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 10000000 Points
+            [PTSEXP] => 11/5/2015
+            [PTSEARN] => 11/05/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:02+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => nataliewooten@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "nataliewooten@gmail.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => wm_wilsoniv89@yahoo.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => wm_wilsoniv89@yahoo.com
+    [2] => Array
+        (
+            [FNAME] => William
+            [LNAME] => Wilson
+            [DOB] => 11/23
+            [PRENAME] => Mr.
+            [BILLING] => Array
+                (
+                    [addr1] => 6480 Betty Ave
+                    [addr2] => 
+                    [city] => Cocoa
+                    [state] => Florida
+                    [zip] => 32927
+                    [country] => US
+                )
+
+            [TELEPHONE] => (863) 326-7168
+            [SHIPPING] => Array
+                (
+                    [addr1] => 6480 Betty Ave
+                    [addr2] => 
+                    [city] => Cocoa
+                    [state] => Florida
+                    [zip] => 32927
+                    [country] => US
+                )
+
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [DOP] => 12/27/2014
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => wm_wilsoniv89@yahoo.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 41758 Points
+            [PTSEXP] => 12/27/2015
+            [PTSEARN] => 12/27/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => kristykempster@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => kristykempster@gmail.com
+    [2] => Array
+        (
+            [FNAME] => Kristy
+            [LNAME] => Kempster
+            [DOB] => 04/21
+            [PRENAME] => Mrs
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => kristykempster@gmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 3500 Points
+            [PTSEXP] => 11/27/2015
+            [PTSEARN] => 11/27/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:03+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => brad@wootencomputer.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => brad@wootencomputer.com
+    [2] => Array
+        (
+            [FNAME] => Brad
+            [LNAME] => Wooten
+            [DOB] => 04/22
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => brad@wootencomputer.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 500 Points
+            [PTSEXP] => 12/3/2015
+            [PTSEARN] => 12/03/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => darienis@hotmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => darienis@hotmail.com
+    [2] => Array
+        (
+            [FNAME] => Darien
+            [LNAME] => Cameron
+            [DOB] => 10/30
+            [BILLING] => Array
+                (
+                    [addr1] => 224 Mckenna Cir
+                    [addr2] => 
+                    [city] => Greenville
+                    [state] => South Carolina
+                    [zip] => 29615
+                    [country] => US
+                )
+
+            [TELEPHONE] => 8649908888
+            [SHIPPING] => Array
+                (
+                    [addr1] => 224 Mckenna Cir
+                    [addr2] => 
+                    [city] => Greenville
+                    [state] => South Carolina
+                    [zip] => 29615
+                    [country] => US
+                )
+
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [DOP] => 12/05/2014
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => darienis@hotmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 1549 Points
+            [PTSEXP] => 12/5/2015
+            [PTSEARN] => 12/05/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => nembree622@yahoo.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:04+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => nembree622@yahoo.com
+    [2] => Array
+        (
+            [FNAME] => Michael
+            [LNAME] => Embree
+            [DOB] => 09/20
+            [PRENAME] => mr
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => nembree622@yahoo.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 1000 Points
+            [PTSEXP] => 12/5/2015
+            [PTSEARN] => 12/05/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => shannonkbolt74@hotmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => shannonkbolt74@hotmail.com
+    [2] => Array
+        (
+            [FNAME] => shannon
+            [LNAME] => bolt
+            [DOB] => 04/27
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => shannonkbolt74@hotmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 1000 Points
+            [PTSEXP] => 12/6/2015
+            [PTSEARN] => 12/06/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => joshua_maske@yahoo.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => joshua_maske@yahoo.com
+    [2] => Array
+        (
+            [FNAME] => Joshua
+            [LNAME] => Maske
+            [DOB] => 10/03
+            [PRENAME] => MR
+            [BILLING] => Array
+                (
+                    [addr1] => 321 Meadow Creek Ch Rd
+                    [addr2] => 
+                    [city] => Locust
+                    [state] => North Carolina
+                    [zip] => 28097
+                    [country] => US
+                )
+
+            [TELEPHONE] => 7049854996
+            [SHIPPING] => Array
+                (
+                    [addr1] => 321 Meadow Creek Ch Rd
+                    [addr2] => 
+                    [city] => Locust
+                    [state] => North Carolina
+                    [zip] => 28097
+                    [country] => US
+                )
+
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [DOP] => 12/14/2014
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => joshua_maske@yahoo.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 4699 Points
+            [PTSEXP] => 12/14/2015
+            [PTSEARN] => 12/14/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:05+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => siciliaashley@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => siciliaashley@gmail.com
+    [2] => Array
+        (
+            [FNAME] => Ashley
+            [LNAME] => sicilia
+            [DOB] => 04/17
+            [BILLING] => Array
+                (
+                    [addr1] => 721 boca ciega isle drive
+                    [addr2] => 
+                    [city] => at.pete beach 
+                    [state] => Florida
+                    [zip] => 33706
+                    [country] => US
+                )
+
+            [TELEPHONE] => 3153500798
+            [SHIPPING] => Array
+                (
+                    [addr1] => 721 boca ciega isle drive
+                    [addr2] => 
+                    [city] => at.pete beach 
+                    [state] => Florida
+                    [zip] => 33706
+                    [country] => US
+                )
+
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => siciliaashley@gmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 33250 Points
+            [PTSEXP] => 12/14/2015
+            [PTSEARN] => 12/14/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => km.shadoze@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => km.shadoze@gmail.com
+    [2] => Array
+        (
+            [FNAME] => Kyle
+            [LNAME] => McEvoy
+            [DOB] => 08/07
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => km.shadoze@gmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 500 Points
+            [PTSEXP] => 12/20/2015
+            [PTSEARN] => 12/20/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:06+00:00 DEBUG (7): Array
+(
+    [0] => scurrier5345@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "scurrier5345@gmail.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => ariesmartin23@yahoo.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "ariesmartin23@yahoo.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => colon_mcrae@yahoo.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "colon_mcrae@yahoo.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => tarad1346@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => tarad1346@gmail.com
+    [2] => Array
+        (
+            [FNAME] => Tara
+            [LNAME] => Yuill
+            [DOB] => 07/10
+            [PRENAME] => Mrs. 
+            [GENDER] => Female
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => tarad1346@gmail.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 1500 Points
+            [PTSEXP] => 12/30/2015
+            [PTSEARN] => 12/30/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => b4g.ace@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "b4g.ace@gmail.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:07+00:00 DEBUG (7): Array
+(
+    [0] => Mikeferrellmusic@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => Error: The email address "Mikeferrellmusic@gmail.com" is not subscribed to any lists., code 215
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => micheald@revman.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => listUpdateMember
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 68492baf6a
+    [1] => micheald@revman.com
+    [2] => Array
+        (
+            [FNAME] => Micheal
+            [LNAME] => Davis
+            [DOB] => 07/12
+            [BILLING] => Array
+                (
+                    [addr1] => 10 Pelham Springs Pl
+                    [addr2] => 
+                    [city] => Greenville
+                    [state] => South Carolina
+                    [zip] => 29615
+                    [country] => US
+                )
+
+            [TELEPHONE] => 8642332768
+            [SHIPPING] => Array
+                (
+                    [addr1] => 10 Pelham Springs Pl
+                    [addr2] => 
+                    [city] => Greenville
+                    [state] => South Carolina
+                    [zip] => 29615
+                    [country] => US
+                )
+
+            [GENDER] => Male
+            [STOREID] => 1
+            [WEBSITE] => 1
+            [DOP] => 12/31/2014
+            [STORECRED] => 
+            [CGROUP] => General
+            [EMAIL] => micheald@revman.com
+            [GROUPINGS] => Array
+                (
+                )
+
+            [PTS] => 8200 Points
+            [PTSEXP] => 12/31/2015
+            [PTSEARN] => 12/31/2014
+            [PTSSPENT] => -
+        )
+
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 1
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => brennanm91@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => Error: There is no record of the email address "brennanm91@gmail.com" in your account, code 232
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => us9.api.mailchimp.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 8ee21b2d2ca5643e7809fae8f9571558-us9
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => listsForEmail
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => vlwalker2@gmail.com
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => 
+    [__pid] => 1960
+)
+
+2015-01-09T06:00:08+00:00 DEBUG (7): Array
+(
+    [0] => Error: There is no record of the email address "vlwalker2@gmail.com" in your account, code 232
+    [__pid] => 1960
+)
+

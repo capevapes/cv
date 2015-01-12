@@ -7,7 +7,7 @@
         <update handle="twitter_tweet_button" />
         <update handle="referral_share_button" />
 
-        <reference name="content">
+        <reference name="preface">
             <reference name="defaultcat.likebutton">
                 <action method="setHidden"><value>1</value></action>
             </reference>
