@@ -41,8 +41,8 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[hybrid_magento]]></username>
-                    <password><![CDATA[0r46epy856nr8uxr]]></password>
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[]]></password>
                     <dbname><![CDATA[hybrid_magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
