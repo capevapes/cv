@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rubik_Lightspeed>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Rubik_Lightspeed>
+    </modules>
+</config>

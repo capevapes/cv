@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<config>
+    <menu>
+        <lightspeed module="lightspeed">
+            <title>Lightspeed</title>
+            <sort_order>71</sort_order>
+            <children>
+                <products module="lightspeed">
+                    <title>View Products</title>
+                    <sort_order>0</sort_order>
+                    <action>lightspeed/adminhtml_lightspeed</action>
+                </products>
+            </children>
+        </lightspeed>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <Rubik_Lightspeed>
+                        <title>Lightspeed Integration</title>
+                        <sort_order>1000</sort_order>
+                    </Rubik_Lightspeed>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <lightspeed translate="title" module="lightspeed">
+                                        <title>Lightspeed</title>
+                                    </lightspeed>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

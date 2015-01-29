@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <lightspeed_adminhtml_lightspeed_index>
+        <reference name="content">
+            <block type="lightspeed/adminhtml_products" name="lightspeed.products" />
+        </reference>
+    </lightspeed_adminhtml_lightspeed_index>
+</layout>

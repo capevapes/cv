@@ -1,0 +1,38 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody>
+            <tr>
+                <td style="width:50%;"><h3>Products from Lightspeed</h3></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<?php $products = $this->getProducts(); ?>
+<div>
+    <div id="lightspeedGrid">
+        <div class="grid">
+            <div class="hor-scroll">
+                <table cellspacing="0" id="lightspeedGrid_table" class="data">
+                    <colgroup>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <thead>
+                        <tr class="headings">
+                            <th><span class="nobr"><a class="not-sort" title="asc" name="sku" href="#"><span class="sort-title">SKU</span></a></span></th>
+                            <th><span class="nobr"><a class="not-sort" title="asc" name="in_magento" href="#"><span class="sort-title">Present in Magento</span></a></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $i = 0; foreach ($products as $product): $i++ ?>
+                        <tr title="#" class="<?php echo $i%2 == 0 ? 'even' : '' ?>"> <!--pointer-->
+                            <td><?php echo $product['sku'] ?></td>
+                            <td><?php echo $product['exists'] == 1 ? ' Yes' : ' No' ?></td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
